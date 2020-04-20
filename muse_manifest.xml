@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x" timestamp="1587403437990">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x" timestamp="1587405367031">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="master_a-master.css" crc="396603744" ref="bungler:htsab:hellbender:warden:chess:robovine-art:index:robovine-videos:plasma-pool:snagglepuff:resume:pictures:dimbo"/>
+    <file name="master_a-master.css" crc="293531149" ref="bungler:htsab:hellbender:warden:chess:robovine-art:index:robovine-videos:plasma-pool:snagglepuff:resume:pictures:dimbo"/>
     <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="bungler:htsab:hellbender:warden:chess:robovine-art:index:robovine-videos:plasma-pool:snagglepuff:resume:pictures:dimbo"/>
     <file name="bungler.css" crc="3931784618" ref="bungler"/>
     <file name="htsab.css" crc="3987451528" ref="htsab"/>
@@ -10,8 +10,8 @@
     <file name="warden.css" crc="3886112940" ref="warden"/>
     <file name="chess.css" crc="3886112940" ref="chess"/>
     <file name="robovine-art.css" crc="3886112940" ref="robovine-art"/>
-    <file name="index.css" crc="3797943596" ref="index"/>
-    <file name="nomq_index.css" crc="362664368" ref="index"/>
+    <file name="index.css" crc="4074730495" ref="index"/>
+    <file name="nomq_index.css" crc="4059806391" ref="index"/>
     <file name="robovine-videos.css" crc="3886112940" ref="robovine-videos"/>
     <file name="plasma-pool.css" crc="4087630740" ref="plasma-pool"/>
     <file name="snagglepuff.css" crc="3886112940" ref="snagglepuff"/>
@@ -30,9 +30,6 @@
   </folder>
   <folder name="images">
     <file name="flowertest2-crop-u918.png" crc="494481826" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest2-crop-u8916.png" crc="494481826" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="shelf.png" crc="3774922" seo="true" ref="index">
@@ -100,25 +97,16 @@
     <file name="u467-r.png" crc="223309403" ref="index"/>
     <file name="u6819.png" crc="432897516" ref="index"/>
     <file name="u6819-r.png" crc="3799073256" ref="index"/>
-    <file name="flowertest-crop-u898.png" crc="51254370" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest-crop-u8893.png" crc="51254370" seo="true" ref="index">
+    <file name="flowertest-crop-u898.png" crc="320602419" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="tableprint_full127x127.jpg" crc="490305242" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="flowertest-crop-u8982.png" crc="16220865" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest-crop-u88932.png" crc="16220865" seo="true" ref="index">
+    <file name="flowertest-crop-u8982.png" crc="3814527618" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="flowertest2-crop-u9182.png" crc="4278474512" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest2-crop-u89162.png" crc="4278474512" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u3892.png" crc="4113896813" ref="index"/>
@@ -148,16 +136,10 @@
     <file name="tableprint_full160x160.jpg" crc="3850345067" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="flowertest-crop-u8983.png" crc="319233269" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest-crop-u88933.png" crc="319233269" seo="true" ref="index">
+    <file name="flowertest-crop-u8983.png" crc="4167611301" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="flowertest2-crop-u9183.png" crc="346138383" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="flowertest2-crop-u89163.png" crc="346138383" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u4473.png" crc="170669914" ref="index"/>
@@ -251,7 +233,7 @@
       <caption webpage="htsab" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4249719087" seo="true" mt="1587403224112" redirect="true"/>
+  <file name="index.html" crc="517923787" seo="true" mt="1587405348057" redirect="true"/>
   <file name="bungler.html" crc="365413260" seo="true" mt="1587403045338" redirect="true"/>
   <file name="plasma-pool.html" crc="4198004529" seo="true" mt="1587403045339" redirect="true"/>
   <file name="htsab.html" crc="109319770" seo="true" mt="1587403045339" redirect="true"/>
