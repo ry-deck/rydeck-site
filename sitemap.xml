@@ -6,16 +6,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://rydeck.com/images/shelf222x223.png</image:loc>
+      <image:loc>http://rydeck.com/images/icon_0011_shelf222x223.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/shelf222x223_2x.png</image:loc>
+      <image:loc>http://rydeck.com/images/icon_0011_shelf222x223_2x.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/shelf180x181.png</image:loc>
+      <image:loc>http://rydeck.com/images/icon_0011_shelf180x181.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/shelf180x181_2x.png</image:loc>
+      <image:loc>http://rydeck.com/images/icon_0011_shelf180x181_2x.png</image:loc>
     </image:image>
   </url>
   <url>
@@ -119,5 +119,131 @@
     <image:image>
       <image:loc>http://rydeck.com/images/highresscreenshot00006170x140_2x.jpg</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>http://rydeck.com/plasma.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white512x323.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white512x323_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool508x304.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool508x304_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_02.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_02_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/danglers.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/danglers_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white414x261.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white414x261_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/danglers94x162.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/danglers94x162_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool348x209.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool348x209_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01130x194.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01130x194_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_02120x180.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_02120x180_2x.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://rydeck.com/pictures.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/bungler.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/hellbender.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/robovine-art.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/resume.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/warden.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/chess-music.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/snagglepuff.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/dimbo.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://rydeck.com/robovine-videos.html</loc>
+    <lastmod>2020-04-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
