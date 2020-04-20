@@ -7,286 +7,264 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Redirect to phone/tablet as necessary
-(function(c,b,d){var a=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var d=a[b]+"MaxTouchPoints";if(d in navigator&&navigator[d])return!0}try{return document.createEvent("TouchEvent"),!0}catch(f){}return!1}(),f=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var d=b[c];d.charAt(0)==" ";)d=d.substring(1,d.length);if(d.indexOf(a)==
-0)return d.substring(a.length,d.length)}return null};if(f("inbrowserediting")!="true"){var h,f=f("devicelock");f=="phone"&&d?h=d:f=="tablet"&&b&&(h=b);if(f!=c&&!h)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&d?h=d:window.matchMedia("(max-device-width: 960px)").matches&&b&&a&&(h=b);else{var c=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),f=window.screen.systemXDPI||0,g=window.screen.systemYDPI||0,f=f>0&&g>0?Math.min(screen.width/f,screen.height/g):
-0;(c<=370||f!=0&&f<=3)&&d?h=d:c<=960&&b&&a&&(h=b)}if(h)b=document.location.search||"",d=document.location.hash||"",document.write('<style type="text/css">body {visibility:hidden}</style>'),document.location=h+b+d}})("desktop","","phone/index.html");
-
-// Update the 'nojs'/'js' class on the html node
+   // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.museresponsive.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
-  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://rydeck.com/phone/index.html"/>
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=3996757073"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3769276913" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_home-master.css?crc=446444952"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=420832830" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=3824530138"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3777828679" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_home-master.css?crc=3824530138"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=4180967945" id="nomq_pagesheet"/>
   <![endif]-->
    </head>
  <body>
 
-  <div class="breakpoint active" id="bp_infinity" data-min-width="961"><!-- responsive breakpoint node -->
-   <div class="clearfix" id="page"><!-- group -->
-    <div class="clearfix grpelem" id="pu3708"><!-- group -->
-     <div class="clip_frame grpelem" id="u3708"><!-- image -->
-      <img class="block temp_no_img_src" id="u3708_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <div class="clip_frame grpelem" id="u6632"><!-- image -->
-      <img class="block temp_no_img_src" id="u6632_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <div class="clip_frame grpelem" id="u531"><!-- image -->
-      <img class="block temp_no_img_src" id="u531_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <a class="nonblock nontext grpelem shared_content" id="u389" href="htsab.html" data-content-guid="u389_content"><!-- state-based BG images --></a>
-     <a class="nonblock nontext grpelem shared_content" id="u6561" href="hellbender.html" data-content-guid="u6561_content"><!-- state-based BG images --></a>
-     <a class="nonblock nontext grpelem shared_content" id="u6779" href="snagglepuff.html" data-content-guid="u6779_content"><!-- state-based BG images --></a>
-    </div>
-    <div class="clearfix grpelem" id="pppu5699"><!-- column -->
-     <div class="clearfix colelem shared_content" id="ppu5699" data-content-guid="ppu5699_content"><!-- group -->
-      <a class="nonblock nontext MuseLinkActive grpelem shared_content" id="u5699" href="index.html" data-content-guid="u5699_content"><!-- state-based BG images --></a>
-      <img class="grpelem temp_no_img_src" id="u7374-4" alt="ry@rydeck.com brooklyn, nyc @ry.deck" width="108" height="51" data-orig-src="images/u7374-4.png?crc=4171673959" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     </div>
-     <div class="clearfix colelem" id="ppu2520"><!-- group -->
-      <div class="clearfix grpelem" id="pu2520"><!-- group -->
-       <div class="clip_frame grpelem" id="u2520"><!-- image -->
-        <img class="block temp_no_img_src" id="u2520_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u3740"><!-- image -->
-        <img class="block temp_no_img_src" id="u3740_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u6662"><!-- image -->
-        <img class="block temp_no_img_src" id="u6662_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u2610"><!-- image -->
-        <img class="block temp_no_img_src" id="u2610_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u3755"><!-- image -->
-        <img class="block temp_no_img_src" id="u3755_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <div class="clip_frame grpelem" id="u6675"><!-- image -->
-        <img class="block temp_no_img_src" id="u6675_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
-       </div>
-       <a class="nonblock nontext grpelem shared_content" id="u457" href="bungler.html" data-content-guid="u457_content"><!-- state-based BG images --></a>
-       <a class="nonblock nontext grpelem shared_content" id="u515" href="dimbo.html" data-content-guid="u515_content"><!-- state-based BG images --></a>
-       <a class="nonblock nontext grpelem shared_content" id="u6791" href="pictures.html" data-content-guid="u6791_content"><!-- state-based BG images --></a>
-       <a class="nonblock nontext grpelem shared_content" id="u6807" href="robovine-videos.html" data-content-guid="u6807_content"><!-- state-based BG images --></a>
-       <a class="nonblock nontext grpelem shared_content" id="u7102" href="warden.html" data-content-guid="u7102_content"><!-- state-based BG images --></a>
-       <a class="nonblock nontext grpelem shared_content" id="u7522" href="resume.html" data-content-guid="u7522_content"><!-- state-based BG images --></a>
+  <div class="breakpoint active" id="bp_infinity" data-min-width="601"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu2418"><!-- column -->
+     <div class="clearfix colelem" id="pu2418"><!-- group -->
+      <div class="clip_frame grpelem" id="u2418"><!-- image -->
+       <img class="block temp_no_img_src" id="u2418_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <div class="clip_frame grpelem" id="u3725"><!-- image -->
-       <img class="block temp_no_img_src" id="u3725_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
+      <div class="grpelem shared_content" id="u227" data-content-guid="u227_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
       </div>
-      <div class="clip_frame grpelem" id="u6649"><!-- image -->
-       <img class="block temp_no_img_src" id="u6649_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clearfix colelem" id="pu2420"><!-- group -->
+      <div class="clip_frame grpelem" id="u2420"><!-- image -->
+       <img class="block temp_no_img_src" id="u2420_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <div class="clip_frame grpelem" id="u2488"><!-- image -->
-       <img class="block temp_no_img_src" id="u2488_img" data-orig-src="images/shelf.png?crc=3774922" alt="" width="222" height="222" src="images/blank.gif?crc=4208392903"/>
+      <div class="grpelem shared_content" id="u237" data-content-guid="u237_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
       </div>
-      <a class="nonblock nontext grpelem shared_content" id="u447" href="robovine-art.html" data-content-guid="u447_content"><!-- state-based BG images --></a>
-      <a class="nonblock nontext grpelem shared_content" id="u467" href="plasma-pool.html" data-content-guid="u467_content"><!-- state-based BG images --></a>
-      <a class="nonblock nontext grpelem shared_content" id="u6819" href="chess.html" data-content-guid="u6819_content"><!-- state-based BG images --></a>
+     </div>
+     <div class="clearfix colelem" id="pu2422"><!-- group -->
+      <div class="clip_frame grpelem" id="u2422"><!-- image -->
+       <img class="block temp_no_img_src" id="u2422_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u245" data-content-guid="u245_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
      </div>
     </div>
-    <div class="shadow clip_frame grpelem" id="u497"><!-- image -->
-     <img class="block temp_no_img_src" id="u497_img" data-orig-src="images/tableprint_full127x127.jpg?crc=490305242" alt="" width="126" height="126" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix grpelem" id="ppu94"><!-- column -->
+     <a class="nonblock nontext MuseLinkActive colelem shared_content" id="u94" href="index.html" data-sizePolicy="fixed" data-pintopage="page_fixedCenter" data-content-guid="u94_content"><!-- state-based BG images --></a>
+     <div class="clearfix colelem shared_content" id="pu96-4" data-content-guid="pu96-4_content"><!-- group -->
+      <img class="grpelem temp_no_img_src" id="u96-4" alt="ry@rydeck.com " width="112" height="24" data-orig-src="images/u96-4.png?crc=76757590" data-hidpi-src="images/u96-4_2x.png?crc=4227419776" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <img class="grpelem temp_no_img_src" id="u167-4" alt="brooklyn, nyc" width="112" height="24" data-orig-src="images/u167-4.png?crc=3778682989" data-hidpi-src="images/u167-4_2x.png?crc=357951594" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+      <img class="grpelem temp_no_img_src" id="u173-4" alt="ig @ry.deck" width="112" height="24" data-orig-src="images/u173-4.png?crc=338269952" data-hidpi-src="images/u173-4_2x.png?crc=451815303" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
+     </div>
+     <div class="clearfix colelem" id="ppu2412"><!-- group -->
+      <div class="clearfix grpelem" id="pu2412"><!-- group -->
+       <div class="clip_frame grpelem" id="u2412"><!-- image -->
+        <img class="block temp_no_img_src" id="u2412_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="grpelem shared_content" id="u241" data-content-guid="u241_content"><!-- state-based BG images -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u2424"><!-- image -->
+       <img class="block temp_no_img_src" id="u2424_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u233" data-content-guid="u233_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="ppu2414"><!-- group -->
+      <div class="clearfix grpelem" id="pu2414"><!-- group -->
+       <div class="clip_frame grpelem" id="u2414"><!-- image -->
+        <img class="block temp_no_img_src" id="u2414_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="grpelem shared_content" id="u249" data-content-guid="u249_content"><!-- state-based BG images -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u2426"><!-- image -->
+       <img class="block temp_no_img_src" id="u2426_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u229" data-content-guid="u229_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="ppu2416"><!-- group -->
+      <div class="clearfix grpelem" id="pu2416"><!-- group -->
+       <div class="clip_frame grpelem" id="u2416"><!-- image -->
+        <img class="block temp_no_img_src" id="u2416_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+       </div>
+       <div class="grpelem shared_content" id="u235" data-content-guid="u235_content"><!-- state-based BG images -->
+        <div class="fluid_height_spacer"></div>
+       </div>
+      </div>
+      <div class="clip_frame grpelem" id="u2428"><!-- image -->
+       <img class="block temp_no_img_src" id="u2428_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u239" data-content-guid="u239_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
     </div>
-    <div class="verticalspacer" data-offset-top="883" data-content-above-spacer="882" data-content-below-spacer="61"></div>
+    <div class="clearfix grpelem" id="ppu2430"><!-- column -->
+     <div class="clearfix colelem" id="pu2430"><!-- group -->
+      <div class="clip_frame grpelem" id="u2430" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedRight"><!-- image -->
+       <img class="block temp_no_img_src" id="u2430_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u231" data-content-guid="u231_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2432"><!-- group -->
+      <div class="clip_frame grpelem" id="u2432" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedRight"><!-- image -->
+       <img class="block temp_no_img_src" id="u2432_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u247" data-content-guid="u247_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+     <div class="clearfix colelem" id="pu2434"><!-- group -->
+      <div class="clip_frame grpelem" id="u2434" data-sizePolicy="fluidWidthHeight" data-pintopage="page_fixedRight"><!-- image -->
+       <img class="block temp_no_img_src" id="u2434_img" data-orig-src="images/shelf222x223.png?crc=3799690343" data-hidpi-src="images/shelf222x223_2x.png?crc=76455801" alt="" data-heightwidthratio="1" data-image-width="222" data-image-height="222" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <div class="grpelem shared_content" id="u243" data-content-guid="u243_content"><!-- state-based BG images -->
+       <div class="fluid_height_spacer"></div>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="829" data-content-above-spacer="830" data-content-below-spacer="61" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/u389-r.png?crc=3797716196" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6561-r.png?crc=215918494" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6779-r.png?crc=3875905696" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u5699-r.png?crc=4154562017" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u457-r.png?crc=174857064" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u515-r.png?crc=4121644570" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6791-r.png?crc=3893906625" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6807-r.png?crc=206417358" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7102-r.png?crc=454180518" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7522-r.png?crc=4227171615" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u447-r.png?crc=3810812835" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u467-r.png?crc=223309403" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6819-r.png?crc=6232029" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u227-r.png?crc=3823756202" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u227-r_2x.png?crc=4277304069" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u237-r.png?crc=4168555090" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u237-r_2x.png?crc=231499518" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u245-r.png?crc=3766598354" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u245-r_2x.png?crc=3810081450" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u94-r.png?crc=297359813" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u94-r_2x.png?crc=3845520215" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u241-r.png?crc=4234332293" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u241-r_2x.png?crc=4017966471" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u233-r.png?crc=313112458" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u233-r_2x.png?crc=347061202" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u249-r.png?crc=304771088" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u249-r_2x.png?crc=131330782" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u229-r.png?crc=35787005" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u229-r_2x.png?crc=110122180" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u235-r.png?crc=216097200" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u235-r_2x.png?crc=3858471812" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u239-r.png?crc=4034859092" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u239-r_2x.png?crc=4125991800" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u231-r.png?crc=200550441" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u231-r_2x.png?crc=403285643" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u247-r.png?crc=4292599523" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u247-r_2x.png?crc=4086804987" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u243-r.png?crc=3883360109" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u243-r_2x.png?crc=363243833" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
-  <div class="breakpoint" id="bp_960" data-min-width="769" data-max-width="960"><!-- responsive breakpoint node -->
-   <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="pppu5699"><!-- column -->
-     <span class="clearfix colelem placeholder" data-placeholder-for="ppu5699_content"><!-- placeholder node --></span>
-     <div class="clearfix colelem" id="pppu2610"><!-- group -->
-      <div class="clearfix grpelem" id="ppu2610"><!-- column -->
-       <div class="clearfix colelem" id="pu2610"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u2610"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u2610_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u389_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix colelem" id="pu2488"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u2488"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u2488_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u457_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix colelem" id="pu3725"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3725"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u3725_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u6675"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u6675_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6819_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u7522_content"><!-- placeholder node --></span>
-       </div>
+  <div class="breakpoint" id="bp_600" data-max-width="600"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <span class="nonblock nontext MuseLinkActive colelem placeholder" data-placeholder-for="u94_content"><!-- placeholder node --></span>
+    <span class="clearfix colelem placeholder" data-placeholder-for="pu96-4_content"><!-- placeholder node --></span>
+    <div class="clearfix colelem" id="ppu2424"><!-- group -->
+     <div class="clearfix grpelem" id="pu2424"><!-- group -->
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2424"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2424_img" src="images/blank.gif?crc=4208392903"/>
       </div>
-      <div class="clearfix grpelem" id="ppu6649"><!-- column -->
-       <div class="clearfix colelem" id="pu6649"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u6649"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u6649_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3755"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u3755_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u467_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6561_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix colelem temp_no_id" data-orig-id="pu3708"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3708"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u3708_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3740"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u3740_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u515_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u7102_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u6632"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u6632_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2520"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u2520_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u6662"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u6662_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u531"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="236" height="236" data-orig-id="u531_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u447_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6779_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6791_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6807_content"><!-- placeholder node --></span>
+      <span class="grpelem placeholder" data-placeholder-for="u233_content"><!-- placeholder node --></span>
      </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2412"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2412_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2418"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2418_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u227_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u241_content"><!-- placeholder node --></span>
     </div>
-    <div class="shadow clip_frame grpelem temp_no_id" data-orig-id="u497"><!-- image -->
-     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/tableprint_full160x160.jpg?crc=3850345067" alt="" width="160" height="160" data-orig-id="u497_img" src="images/blank.gif?crc=4208392903"/>
+    <div class="clearfix colelem" id="ppu2426"><!-- group -->
+     <div class="clearfix grpelem" id="pu2426"><!-- group -->
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2426"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2426_img" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u237_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2414"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2414_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2420"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2420_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u229_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u231_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="1176" data-content-above-spacer="1175" data-content-below-spacer="61"></div>
+    <div class="clearfix colelem" id="ppu2428"><!-- group -->
+     <div class="clearfix grpelem" id="pu2428"><!-- group -->
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2428"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2428_img" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u247_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2416"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2416_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2422"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2422_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u245_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u249_content"><!-- placeholder node --></span>
+    </div>
+    <div class="clearfix colelem" id="ppu2432"><!-- group -->
+     <div class="clearfix grpelem temp_no_id" data-orig-id="pu2432"><!-- group -->
+      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2432"><!-- image -->
+       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2432_img" src="images/blank.gif?crc=4208392903"/>
+      </div>
+      <span class="grpelem placeholder" data-placeholder-for="u235_content"><!-- placeholder node --></span>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2430"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2430_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <div class="clip_frame grpelem temp_no_id" data-orig-id="u2434"><!-- image -->
+      <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf180x181.png?crc=167566204" data-hidpi-src="images/shelf180x181_2x.png?crc=4239295473" alt="" data-heightwidthratio="1" data-image-width="180" data-image-height="180" data-orig-id="u2434_img" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="grpelem placeholder" data-placeholder-for="u239_content"><!-- placeholder node --></span>
+     <span class="grpelem placeholder" data-placeholder-for="u243_content"><!-- placeholder node --></span>
+    </div>
+    <div class="verticalspacer" data-offset-top="883" data-content-above-spacer="887" data-content-below-spacer="56" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/u5699-r.png?crc=4154562017" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u389-r2.png?crc=41201471" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u457-r2.png?crc=46170678" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6819-r2.png?crc=6232029" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7522-r2.png?crc=4227171615" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u467-r2.png?crc=125607201" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6561-r2.png?crc=215918494" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u515-r2.png?crc=311797442" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7102-r2.png?crc=454180518" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u447-r2.png?crc=373818992" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6779-r2.png?crc=3875905696" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6791-r2.png?crc=3893906625" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6807-r2.png?crc=206417358" alt="" src="images/blank.gif?crc=4208392903"/>
-   </div>
-  </div>
-  <div class="breakpoint" id="bp_768" data-max-width="768"><!-- responsive breakpoint node -->
-   <div class="clearfix temp_no_id" data-orig-id="page"><!-- group -->
-    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu5699"><!-- column -->
-     <span class="nonblock nontext MuseLinkActive colelem placeholder" data-placeholder-for="u5699_content"><!-- placeholder node --></span>
-     <img class="colelem temp_no_id temp_no_img_src" alt="ry@rydeck.com brooklyn, nyc @ry.deck" width="320" height="24" data-orig-src="images/u7374-4.png?crc=4171673959" data-orig-id="u7374-4" src="images/blank.gif?crc=4208392903"/><!-- rasterized frame -->
-     <div class="clearfix colelem" id="pppu3708"><!-- group -->
-      <div class="clearfix grpelem" id="ppu3708"><!-- column -->
-       <div class="clearfix colelem temp_no_id" data-orig-id="pu3708"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3708"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u3708_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u2520"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u2520_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u6662"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u6662_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u447_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u457_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u467_content"><!-- placeholder node --></span>
-       </div>
-       <div class="clearfix colelem" id="pu6632"><!-- group -->
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u6632"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u6632_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u3740"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u3740_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <div class="clip_frame grpelem temp_no_id" data-orig-id="u531"><!-- image -->
-         <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u531_img" src="images/blank.gif?crc=4208392903"/>
-        </div>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6807_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6819_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u7102_content"><!-- placeholder node --></span>
-       </div>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u3725"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u3725_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u6649"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u6649_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2610"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u2610_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u3755"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u3755_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u6675"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u6675_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <div class="clip_frame grpelem temp_no_id" data-orig-id="u2488"><!-- image -->
-       <img class="block temp_no_id temp_no_img_src" data-orig-src="images/shelf.png?crc=3774922" alt="" width="155" height="155" data-orig-id="u2488_img" src="images/blank.gif?crc=4208392903"/>
-      </div>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u389_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u515_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6561_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6779_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u6791_content"><!-- placeholder node --></span>
-      <span class="nonblock nontext grpelem placeholder" data-placeholder-for="u7522_content"><!-- placeholder node --></span>
-     </div>
-    </div>
-    <div class="shadow clip_frame grpelem temp_no_id" data-orig-id="u497"><!-- image -->
-     <img class="block temp_no_id temp_no_img_src" data-orig-src="images/tableprint_full75x75.jpg?crc=4006633099" alt="" width="75" height="75" data-orig-id="u497_img" src="images/blank.gif?crc=4208392903"/>
-    </div>
-    <div class="verticalspacer" data-offset-top="1162" data-content-above-spacer="1161" data-content-below-spacer="61"></div>
-   </div>
-   <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/u5699-r.png?crc=4154562017" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u447-r3.png?crc=3821673862" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u457-r3.png?crc=410272751" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u467-r3.png?crc=4074323622" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6807-r3.png?crc=352980841" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6819-r3.png?crc=3761911694" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7102-r3.png?crc=4276282862" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u389-r3.png?crc=4285599415" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u515-r3.png?crc=196491655" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6561-r3.png?crc=4244250510" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6779-r3.png?crc=320811887" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u6791-r3.png?crc=311745946" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/u7522-r3.png?crc=3758548429" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u94-r.png?crc=297359813" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u94-r_2x.png?crc=3845520215" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u233-r2.png?crc=179960643" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u233-r_2x2.png?crc=173165938" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u227-r2.png?crc=392996386" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u227-r_2x2.png?crc=316566956" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u241-r2.png?crc=4196639311" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u241-r_2x2.png?crc=524810271" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u237-r2.png?crc=526418188" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u237-r_2x2.png?crc=4270146666" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u229-r2.png?crc=4050255785" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u229-r_2x2.png?crc=3870770055" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u231-r2.png?crc=3807893264" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u231-r_2x2.png?crc=3791580116" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u247-r2.png?crc=269106171" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u247-r_2x2.png?crc=256395354" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u245-r2.png?crc=495831651" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u245-r_2x2.png?crc=86625639" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u249-r2.png?crc=4182028448" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u249-r_2x2.png?crc=510755825" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u235-r2.png?crc=452624334" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u235-r_2x2.png?crc=183244144" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u239-r2.png?crc=4246287040" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u239-r_2x2.png?crc=285750635" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u243-r2.png?crc=3874417788" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/u243-r_2x2.png?crc=395040443" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <!-- Other scripts -->
@@ -303,6 +281,7 @@ setTimeout(function(){f(!0)},5E3):f()}};
 var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
+Muse.Utils.detectScreenResolution();/* HiDPI screens */
 Muse.Utils.prepHyperlinks(true);/* body */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.fullPage('#page');/* 100% height page */
