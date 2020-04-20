@@ -1,0 +1,267 @@
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x" timestamp="1587403437990">
+  <folder name="css">
+    <file name="site_global.css" crc="444006867"/>
+    <file name="master_a-master.css" crc="396603744" ref="bungler:htsab:hellbender:warden:chess:robovine-art:index:robovine-videos:plasma-pool:snagglepuff:resume:pictures:dimbo"/>
+    <file name="nomq_preview_master_a-master.css" crc="3824530138" ref="bungler:htsab:hellbender:warden:chess:robovine-art:index:robovine-videos:plasma-pool:snagglepuff:resume:pictures:dimbo"/>
+    <file name="bungler.css" crc="3931784618" ref="bungler"/>
+    <file name="htsab.css" crc="3987451528" ref="htsab"/>
+    <file name="nomq_htsab.css" crc="4187858358" ref="htsab"/>
+    <file name="hellbender.css" crc="3886112940" ref="hellbender"/>
+    <file name="warden.css" crc="3886112940" ref="warden"/>
+    <file name="chess.css" crc="3886112940" ref="chess"/>
+    <file name="robovine-art.css" crc="3886112940" ref="robovine-art"/>
+    <file name="index.css" crc="3797943596" ref="index"/>
+    <file name="nomq_index.css" crc="362664368" ref="index"/>
+    <file name="robovine-videos.css" crc="3886112940" ref="robovine-videos"/>
+    <file name="plasma-pool.css" crc="4087630740" ref="plasma-pool"/>
+    <file name="snagglepuff.css" crc="3886112940" ref="snagglepuff"/>
+    <file name="resume.css" crc="3886112940" ref="resume"/>
+    <file name="pictures.css" crc="3886112940" ref="pictures"/>
+    <file name="dimbo.css" crc="3886112940" ref="dimbo"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="museutils.js" crc="3939489907" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="whatinput.js" crc="86476730" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index:htsab"/>
+    <file name="require.js" crc="4177726516" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+  </folder>
+  <folder name="images">
+    <file name="flowertest2-crop-u918.png" crc="494481826" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest2-crop-u8916.png" crc="494481826" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="shelf.png" crc="3774922" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u389.png" crc="4140904316" ref="index"/>
+    <file name="u389-r.png" crc="3797716196" ref="index"/>
+    <file name="u6561.png" crc="4215091982" ref="index"/>
+    <file name="u6561-r.png" crc="3905534255" ref="index"/>
+    <file name="u6779.png" crc="88294269" ref="index"/>
+    <file name="u6779-r.png" crc="4088748335" ref="index"/>
+    <file name="u5699.png" crc="4289356745" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="u5699-r.png" crc="4154562017" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="u7374-8.png" crc="4171673959" ref="index:bungler:plasma-pool:htsab:pictures:hellbender:dimbo:resume:warden:snagglepuff:robovine-art:robovine-videos:chess"/>
+    <file name="u457.png" crc="335162316" ref="index"/>
+    <file name="u457-r.png" crc="174857064" ref="index"/>
+    <file name="u515.png" crc="268023575" ref="index"/>
+    <file name="u515-r.png" crc="4121644570" ref="index"/>
+    <file name="u6791.png" crc="3919629569" ref="index"/>
+    <file name="u6791-r.png" crc="3893906625" ref="index"/>
+    <file name="u6807.png" crc="3902603942" ref="index"/>
+    <file name="u6807-r.png" crc="206417358" ref="index"/>
+    <file name="u7102.png" crc="71646636" ref="index"/>
+    <file name="u7102-r.png" crc="60131392" ref="index"/>
+    <file name="u7522.png" crc="289076317" ref="index"/>
+    <file name="u7522-r.png" crc="4227171615" ref="index"/>
+    <file name="u447.png" crc="4115847620" ref="index"/>
+    <file name="u447-r.png" crc="3810812835" ref="index"/>
+    <file name="u467.png" crc="4250612419" ref="index"/>
+    <file name="u467-r.png" crc="223309403" ref="index"/>
+    <file name="u6819.png" crc="432897516" ref="index"/>
+    <file name="u6819-r.png" crc="3799073256" ref="index"/>
+    <file name="flowertest-crop-u898.png" crc="51254370" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest-crop-u8893.png" crc="51254370" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="tableprint_full127x127.jpg" crc="490305242" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest-crop-u8982.png" crc="16220865" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest-crop-u88932.png" crc="16220865" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest2-crop-u9182.png" crc="4278474512" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest2-crop-u89162.png" crc="4278474512" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u3892.png" crc="4113896813" ref="index"/>
+    <file name="u389-r2.png" crc="41201471" ref="index"/>
+    <file name="u4572.png" crc="3982869762" ref="index"/>
+    <file name="u457-r2.png" crc="46170678" ref="index"/>
+    <file name="u68192.png" crc="432897516" ref="index"/>
+    <file name="u6819-r2.png" crc="3799073256" ref="index"/>
+    <file name="u75222.png" crc="289076317" ref="index"/>
+    <file name="u7522-r2.png" crc="4227171615" ref="index"/>
+    <file name="u4672.png" crc="4080218099" ref="index"/>
+    <file name="u467-r2.png" crc="125607201" ref="index"/>
+    <file name="u65612.png" crc="4215091982" ref="index"/>
+    <file name="u6561-r2.png" crc="3905534255" ref="index"/>
+    <file name="u5152.png" crc="4085724636" ref="index"/>
+    <file name="u515-r2.png" crc="311797442" ref="index"/>
+    <file name="u71022.png" crc="71646636" ref="index"/>
+    <file name="u7102-r2.png" crc="60131392" ref="index"/>
+    <file name="u4472.png" crc="186289461" ref="index"/>
+    <file name="u447-r2.png" crc="373818992" ref="index"/>
+    <file name="u67792.png" crc="88294269" ref="index"/>
+    <file name="u6779-r2.png" crc="4088748335" ref="index"/>
+    <file name="u67912.png" crc="3919629569" ref="index"/>
+    <file name="u6791-r2.png" crc="3893906625" ref="index"/>
+    <file name="u68072.png" crc="3902603942" ref="index"/>
+    <file name="u6807-r2.png" crc="206417358" ref="index"/>
+    <file name="tableprint_full160x160.jpg" crc="3850345067" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest-crop-u8983.png" crc="319233269" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest-crop-u88933.png" crc="319233269" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest2-crop-u9183.png" crc="346138383" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="flowertest2-crop-u89163.png" crc="346138383" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u4473.png" crc="170669914" ref="index"/>
+    <file name="u447-r3.png" crc="3821673862" ref="index"/>
+    <file name="u4573.png" crc="251169598" ref="index"/>
+    <file name="u457-r3.png" crc="410272751" ref="index"/>
+    <file name="u4673.png" crc="3871029420" ref="index"/>
+    <file name="u467-r3.png" crc="4074323622" ref="index"/>
+    <file name="u68073.png" crc="253297310" ref="index"/>
+    <file name="u6807-r3.png" crc="352980841" ref="index"/>
+    <file name="u68193.png" crc="388275172" ref="index"/>
+    <file name="u6819-r3.png" crc="4039107054" ref="index"/>
+    <file name="u71023.png" crc="3851081483" ref="index"/>
+    <file name="u7102-r3.png" crc="4118232731" ref="index"/>
+    <file name="u3893.png" crc="228408084" ref="index"/>
+    <file name="u389-r3.png" crc="4285599415" ref="index"/>
+    <file name="u5153.png" crc="252143952" ref="index"/>
+    <file name="u515-r3.png" crc="196491655" ref="index"/>
+    <file name="u65613.png" crc="442572979" ref="index"/>
+    <file name="u6561-r3.png" crc="478204130" ref="index"/>
+    <file name="u67793.png" crc="320892123" ref="index"/>
+    <file name="u6779-r3.png" crc="270418357" ref="index"/>
+    <file name="u67913.png" crc="3930839051" ref="index"/>
+    <file name="u6791-r3.png" crc="311745946" ref="index"/>
+    <file name="u75223.png" crc="3985689211" ref="index"/>
+    <file name="u7522-r3.png" crc="3758548429" ref="index"/>
+    <file name="tableprint_full75x75.jpg" crc="4006633099" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="index:htsab"/>
+    <file name="tableprint_full.jpg" crc="4013091082" seo="true" ref="bungler">
+      <caption webpage="bungler" alt=""/>
+    </file>
+    <file name="rydeck_bungler_1.jpg" crc="180128016" seo="true" ref="bungler">
+      <caption webpage="bungler" alt=""/>
+    </file>
+    <file name="rydeck_bungler_4.jpg" crc="413429227" seo="true" ref="bungler">
+      <caption webpage="bungler" alt=""/>
+    </file>
+    <file name="decker_plasmapool_white.jpg" crc="241122297" seo="true" ref="plasma-pool">
+      <caption webpage="plasma-pool" alt=""/>
+    </file>
+    <file name="danglers.jpg" crc="3920278582" seo="true" ref="plasma-pool">
+      <caption webpage="plasma-pool" alt=""/>
+    </file>
+    <file name="decker_plasmapool.jpg" crc="4039150333" seo="true" ref="plasma-pool">
+      <caption webpage="plasma-pool" alt=""/>
+    </file>
+    <file name="decker_plasmapool_detail_01.jpg" crc="3846729021" seo="true" ref="plasma-pool">
+      <caption webpage="plasma-pool" alt=""/>
+    </file>
+    <file name="decker_plasmapool_detail_02.jpg" crc="522228855" seo="true" ref="plasma-pool">
+      <caption webpage="plasma-pool" alt=""/>
+    </file>
+    <file name="htsab_cover.jpg" crc="341343653" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="highresscreenshot00006.jpg" crc="3806927351" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="highresscreenshot00008.jpg" crc="4169326841" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="highresscreenshot00015.jpg" crc="3876018812" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_4.jpg" crc="87422739" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_6.jpg" crc="3995043620" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_5.jpg" crc="458807421" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_2.jpg" crc="207449744" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_1.jpg" crc="293366342" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="highresscreenshot00006396x328.jpg" crc="3926296821" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+    </file>
+  </folder>
+  <file name="index.html" crc="4249719087" seo="true" mt="1587403224112" redirect="true"/>
+  <file name="bungler.html" crc="365413260" seo="true" mt="1587403045338" redirect="true"/>
+  <file name="plasma-pool.html" crc="4198004529" seo="true" mt="1587403045339" redirect="true"/>
+  <file name="htsab.html" crc="109319770" seo="true" mt="1587403045339" redirect="true"/>
+  <file name="pictures.html" crc="3863754117" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="hellbender.html" crc="247684983" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="dimbo.html" crc="491406425" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="resume.html" crc="5119531" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="warden.html" crc="216728439" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="snagglepuff.html" crc="4040205177" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="robovine-art.html" crc="352584986" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="robovine-videos.html" crc="120531356" seo="true" mt="1587403045335" redirect="true"/>
+  <file name="chess.html" crc="481864155" seo="true" mt="1587403045335" redirect="true"/>
+</manifest>
