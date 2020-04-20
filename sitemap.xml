@@ -6,31 +6,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://rydeck.com/images/flowertest2-crop-u918.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/shelf.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest-crop-u898.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/tableprint_full127x127.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/flowertest-crop-u8982.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest2-crop-u9182.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/tableprint_full160x160.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest-crop-u8983.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest2-crop-u9183.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/tableprint_full75x75.jpg</image:loc>
