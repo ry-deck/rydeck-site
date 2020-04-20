@@ -5,6 +5,7 @@
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/index.html"/>
     <image:image>
       <image:loc>http://rydeck.com/images/shelf.png</image:loc>
     </image:image>
@@ -23,6 +24,7 @@
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/bungler.html"/>
     <image:image>
       <image:loc>http://rydeck.com/images/tableprint_full.jpg</image:loc>
     </image:image>
@@ -38,6 +40,7 @@
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/plasma-pool.html"/>
     <image:image>
       <image:loc>http://rydeck.com/images/decker_plasmapool_white.jpg</image:loc>
     </image:image>
@@ -59,6 +62,7 @@
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/htsab.html"/>
     <image:image>
       <image:loc>http://rydeck.com/images/htsab_cover.jpg</image:loc>
     </image:image>
@@ -89,59 +93,95 @@
     <image:image>
       <image:loc>http://rydeck.com/images/highresscreenshot00006396x328.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_cover271x271.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_2348x196.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/highresscreenshot00008386x319.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/highresscreenshot00015304x233.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_4342x193.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_1308x174.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/highresscreenshot00006317x262.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_6418x235.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/htsab_5348x196.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://rydeck.com/pictures.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/pictures.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/hellbender.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/hellbender.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/dimbo.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/dimbo.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/resume.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/resume.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/warden.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/warden.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/snagglepuff.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/snagglepuff.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/robovine-art.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/robovine-art.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/robovine-videos.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/robovine-videos.html"/>
   </url>
   <url>
     <loc>http://rydeck.com/chess.html</loc>
     <lastmod>2020-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://rydeck.com/phone/chess.html"/>
   </url>
 </urlset>
