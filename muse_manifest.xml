@@ -1,38 +1,38 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1587515729909">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1587583604051">
   <folder name="css">
     <file name="site_global.css" crc="4010206918"/>
-    <file name="htsab.css" crc="381742627" ref="htsab"/>
-    <file name="nomq_htsab.css" crc="334520279" ref="htsab"/>
-    <file name="index.css" crc="4180422584" ref="index"/>
-    <file name="nomq_index.css" crc="4201149986" ref="index"/>
-    <file name="master_subpage-master.css" crc="33385229" ref="htsab:warden:hellbender:resume:plasma:bungler:pictures"/>
-    <file name="nomq_preview_master_subpage-master.css" crc="3824530138" ref="htsab:warden:hellbender:resume:plasma:bungler:pictures"/>
-    <file name="master_home-master.css" crc="116946721" ref="index"/>
-    <file name="nomq_preview_master_home-master.css" crc="3824530138" ref="index"/>
-    <file name="warden.css" crc="3940247734" ref="warden"/>
-    <file name="nomq_warden.css" crc="4233803586" ref="warden"/>
-    <file name="hellbender.css" crc="3940247734" ref="hellbender"/>
-    <file name="nomq_hellbender.css" crc="4233803586" ref="hellbender"/>
-    <file name="resume.css" crc="3940247734" ref="resume"/>
-    <file name="nomq_resume.css" crc="4233803586" ref="resume"/>
-    <file name="plasma.css" crc="4277205767" ref="plasma"/>
-    <file name="nomq_plasma.css" crc="3788720750" ref="plasma"/>
-    <file name="bungler.css" crc="3940247734" ref="bungler"/>
-    <file name="nomq_bungler.css" crc="4233803586" ref="bungler"/>
-    <file name="pictures.css" crc="3940247734" ref="pictures"/>
-    <file name="nomq_pictures.css" crc="4233803586" ref="pictures"/>
+    <file name="htsab.css" crc="131215573" ref="htsab"/>
+    <file name="nomq_htsab.css" crc="4080477964" ref="htsab"/>
+    <file name="index.css" crc="123248324" ref="index"/>
+    <file name="nomq_index.css" crc="486133482" ref="index"/>
+    <file name="master_subpage-master.css" crc="3892385674" ref="htsab:warden:hellbender:plasma:bungler:pictures:about-me"/>
+    <file name="nomq_preview_master_subpage-master.css" crc="378367418" ref="htsab:warden:hellbender:plasma:bungler:pictures:about-me"/>
+    <file name="master_home-master.css" crc="78379164" ref="index"/>
+    <file name="nomq_preview_master_home-master.css" crc="3860047233" ref="index"/>
+    <file name="warden.css" crc="309046963" ref="warden"/>
+    <file name="nomq_warden.css" crc="75093267" ref="warden"/>
+    <file name="hellbender.css" crc="346863582" ref="hellbender"/>
+    <file name="nomq_hellbender.css" crc="416088677" ref="hellbender"/>
+    <file name="plasma.css" crc="3971978820" ref="plasma"/>
+    <file name="nomq_plasma.css" crc="378146794" ref="plasma"/>
+    <file name="bungler.css" crc="309046963" ref="bungler"/>
+    <file name="nomq_bungler.css" crc="75093267" ref="bungler"/>
+    <file name="pictures.css" crc="3991358487" ref="pictures"/>
+    <file name="nomq_pictures.css" crc="4041044993" ref="pictures"/>
+    <file name="about-me.css" crc="309046963" ref="about-me"/>
+    <file name="nomq_about-me.css" crc="75093267" ref="about-me"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="museutils.js" crc="3939489907" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="whatinput.js" crc="86476730" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="museconfig.js" crc="3936894949" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="jquery.watch.js" crc="522499760" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="jquery.museresponsive.js" crc="95814420" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="require.js" crc="4177726516" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="museutils.js" crc="3939489907" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="whatinput.js" crc="86476730" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="museconfig.js" crc="3936894949" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="jquery.watch.js" crc="522499760" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="jquery.museresponsive.js" crc="95814420" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
+    <file name="require.js" crc="4177726516" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
   </folder>
   <folder name="images">
-    <file name="blank.gif" crc="4208392903" ref="index:htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
+    <file name="blank.gif" crc="4208392903" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:about-me"/>
     <file name="htsab_cover.jpg" crc="133159191" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
@@ -48,14 +48,10 @@
     <file name="htsab_1.jpg" crc="3937519550" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
-    <file name="u94.png" crc="56480611" ref="index"/>
-    <file name="u94_2x.png" crc="49991967" ref="index"/>
-    <file name="u94-r.png" crc="297359813" ref="index"/>
-    <file name="u94-r_2x.png" crc="3845520215" ref="index"/>
-    <file name="u4059.png" crc="56480611" ref="htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="u4059_2x.png" crc="49991967" ref="htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="u4059-r.png" crc="297359813" ref="htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
-    <file name="u4059-r_2x.png" crc="3845520215" ref="htsab:plasma:pictures:bungler:hellbender:resume:warden"/>
+    <file name="u94.png" crc="34245619" ref="index"/>
+    <file name="u94_2x.png" crc="479143934" ref="index"/>
+    <file name="u94-r.png" crc="498586543" ref="index"/>
+    <file name="u94-r_2x.png" crc="4252245665" ref="index"/>
     <file name="htsab_3.jpg" crc="4233533947" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
@@ -105,12 +101,6 @@
       <caption webpage="htsab" alt=""/>
     </file>
     <file name="htsab_6350x197_2x.jpg" crc="341305234" seo="true" ref="htsab">
-      <caption webpage="htsab" alt=""/>
-    </file>
-    <file name="htsab_cover152x152.jpg" crc="4115635827" seo="true" ref="htsab">
-      <caption webpage="htsab" alt=""/>
-    </file>
-    <file name="htsab_cover152x152_2x.jpg" crc="491489510" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
     <file name="u6069.png" crc="106790151" ref="index"/>
@@ -244,10 +234,10 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="u10497.png" crc="162592917" ref="index"/>
-    <file name="u10497_2x.png" crc="4207891726" ref="index"/>
-    <file name="u10497-r.png" crc="28404514" ref="index"/>
-    <file name="u10497-r_2x.png" crc="4046951595" ref="index"/>
+    <file name="u10497.png" crc="3949862493" ref="index"/>
+    <file name="u10497_2x.png" crc="4183012518" ref="index"/>
+    <file name="u10497-r.png" crc="304199493" ref="index"/>
+    <file name="u10497-r_2x.png" crc="182697817" ref="index"/>
     <file name="icon_0008_nimbus-u6271.png" crc="409529254" ref="index"/>
     <file name="icon_0008_nimbus-u6271_2x.png" crc="261144049" ref="index"/>
     <file name="icon_0008_nimbus-u6271-r.png" crc="366767143" ref="index"/>
@@ -321,10 +311,10 @@
     <file name="icon_0008_nimbus-u6271-r_2x2.png" crc="4172910872" ref="index"/>
     <file name="icon_0008_nimbus_back-u6271-m2.png" crc="236008347" ref="index"/>
     <file name="icon_0008_nimbus_back-u6271-m_2x2.png" crc="3975216931" ref="index"/>
-    <file name="u104972.png" crc="49222276" ref="index"/>
-    <file name="u10497_2x2.png" crc="83267551" ref="index"/>
-    <file name="u10497-r2.png" crc="356043411" ref="index"/>
-    <file name="u10497-r_2x2.png" crc="26800554" ref="index"/>
+    <file name="u104972.png" crc="288199001" ref="index"/>
+    <file name="u10497_2x2.png" crc="395172059" ref="index"/>
+    <file name="u10497-r2.png" crc="3965712254" ref="index"/>
+    <file name="u10497-r_2x2.png" crc="4157168293" ref="index"/>
     <file name="u104852.png" crc="281050303" ref="index"/>
     <file name="u10485_2x2.png" crc="3870468089" ref="index"/>
     <file name="u10485-r2.png" crc="4009534259" ref="index"/>
@@ -407,13 +397,137 @@
     <file name="decker_plasmapool_detail_01128x192_2x.jpg" crc="70373101" seo="true" ref="plasma">
       <caption webpage="plasma" alt=""/>
     </file>
+    <file name="u11050.png" crc="34245619" ref="htsab:plasma:pictures:bungler:hellbender:about-me:warden"/>
+    <file name="u11050_2x.png" crc="479143934" ref="htsab:plasma:pictures:bungler:hellbender:about-me:warden"/>
+    <file name="u11050-r.png" crc="498586543" ref="htsab:plasma:pictures:bungler:hellbender:about-me:warden"/>
+    <file name="u11050-r_2x.png" crc="4252245665" ref="htsab:plasma:pictures:bungler:hellbender:about-me:warden"/>
+    <file name="htsab_cover203x203.jpg" crc="3861877715" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="htsab_cover203x203_2x.jpg" crc="3980990895" seo="true" ref="htsab">
+      <caption webpage="htsab" alt=""/>
+    </file>
+    <file name="scatter.jpg" crc="394834240" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="scatter_2x.jpg" crc="497446302" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_1.jpg" crc="3787512767" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_1_2x.jpg" crc="3960832406" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_2.jpg" crc="4164617758" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_2_2x.jpg" crc="171619119" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="heads10_final.jpg" crc="3975117850" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="heads10_final_2x.jpg" crc="7829482" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_30.jpg" crc="4230916610" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_30_2x.jpg" crc="261513648" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="7_01.jpg" crc="4170149128" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="7_01_2x.jpg" crc="144456703" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_29.jpg" crc="3955591715" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_29_2x.jpg" crc="500359980" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_26.jpg" crc="3799071173" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_26_2x.jpg" crc="121433537" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="scatter574x285.jpg" crc="162390521" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="scatter574x285_2x.jpg" crc="4051765699" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_1574x323.jpg" crc="4287098648" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_1574x323_2x.jpg" crc="33967271" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_2574x323.jpg" crc="3781915511" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="goohouse_2574x323_2x.jpg" crc="3871546566" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="heads10_final574x862.jpg" crc="3863290167" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="heads10_final574x862_2x.jpg" crc="4289305193" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_30574x431.jpg" crc="236416731" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_30574x431_2x.jpg" crc="4068555639" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="7_01575x432.jpg" crc="341503975" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="7_01575x432_2x.jpg" crc="50315130" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_29574x766.jpg" crc="4224506874" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_29574x766_2x.jpg" crc="65732488" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_26574x431.jpg" crc="222163286" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="6_26574x431_2x.jpg" crc="4101829951" seo="true" ref="pictures">
+      <caption webpage="pictures" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_1.jpg" crc="94288186" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_1_2x.jpg" crc="17873200" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_2.jpg" crc="212519162" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_1575x326.jpg" crc="479168889" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_1575x326_2x.jpg" crc="86007896" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
+    <file name="rydeck_hellbender_2575x398.jpg" crc="4243961802" seo="true" ref="hellbender">
+      <caption webpage="hellbender" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="284152014" seo="true" mt="1587515698630" redirect="true"/>
-  <file name="htsab.html" crc="3904074055" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="plasma.html" crc="4246443160" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="pictures.html" crc="62624692" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="bungler.html" crc="4036415338" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="hellbender.html" crc="215817831" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="resume.html" crc="3762309133" seo="true" mt="1587515626083" redirect="true"/>
-  <file name="warden.html" crc="449451060" seo="true" mt="1587515626083" redirect="true"/>
+  <file name="index.html" crc="43243503" seo="true" mt="1587583380577" redirect="true"/>
+  <file name="htsab.html" crc="4018328728" seo="true" mt="1587582434725" redirect="true"/>
+  <file name="plasma.html" crc="503573895" seo="true" mt="1587582023185" redirect="true"/>
+  <file name="pictures.html" crc="4060437336" seo="true" mt="1587582829972" redirect="true"/>
+  <file name="bungler.html" crc="3944297747" seo="true" mt="1587581086976" redirect="true"/>
+  <file name="hellbender.html" crc="304270775" seo="true" mt="1587582944321" redirect="true"/>
+  <file name="warden.html" crc="3769896270" seo="true" mt="1587581086976" redirect="true"/>
+  <file name="about-me.html" crc="224079798" seo="true" mt="1587583380579" redirect="true"/>
 </manifest>
