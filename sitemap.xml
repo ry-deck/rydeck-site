@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://rydeck.com/index.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest2-crop-u8048.png</image:loc>
-    </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/icon_shelf222x223.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/icon_shelf222x223_2x.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/flowertest-crop-u7897.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/icon_shelf180x181.png</image:loc>
@@ -26,7 +20,7 @@
   </url>
   <url>
     <loc>http://rydeck.com/htsab.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -105,9 +99,6 @@
       <image:loc>http://rydeck.com/images/highresscreenshot00006-crop-u8527.png</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/highresscreenshot00006-crop-u8527_2x.png</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/highresscreenshot00008-crop-u84942.png</image:loc>
     </image:image>
     <image:image>
@@ -115,9 +106,6 @@
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/highresscreenshot00006-crop-u85272.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/highresscreenshot00006-crop-u8527_2x2.png</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/htsab_cover203x203.jpg</image:loc>
@@ -128,7 +116,7 @@
   </url>
   <url>
     <loc>http://rydeck.com/plasma.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-04-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -136,12 +124,6 @@
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool_white414x261.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool_white414x261_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/decker_plasmapool_white-crop-u6814.jpg</image:loc>
@@ -168,12 +150,6 @@
       <image:loc>http://rydeck.com/images/danglers-crop-u6785_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool414x248.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool414x248_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/decker_plasmapool_detail_02-crop-u68072.jpg</image:loc>
     </image:image>
     <image:image>
@@ -186,10 +162,22 @@
       <image:loc>http://rydeck.com/images/danglers-crop-u6785_2x2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01128x192.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white560x353.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01128x192_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_white560x353_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool560x335.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool560x335_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01173x260.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_plasmapool_detail_01173x260_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -296,13 +284,91 @@
   </url>
   <url>
     <loc>http://rydeck.com/bungler.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_1_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_4.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_4_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/dudd_bungler-crop-u12072.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_tabletop.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_tabletop_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/20190430_005029-crop-u12082.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/20190430_005029-crop-u12082_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/screenshot_20190417-171239_instagram%20(1)-crop-u12100.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/screenshot_20190417-171239_instagram%20(1)-crop-u12100_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/received_282509369366091%20(1).jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/received_282509369366091%20(1)_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_1575x456.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_1575x456_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_4575x326.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_4575x326_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/dudd_bungler-crop-u120722.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_tabletop575x575.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/rydeck_bungler_tabletop575x575_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/20190430_005029-crop-u120822.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/20190430_005029-crop-u12082_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/screenshot_20190417-171239_instagram%20(1)-crop-u121002.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/screenshot_20190417-171239_instagram%20(1)-crop-u12100_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/received_282509369366091%20(1)282x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/received_282509369366091%20(1)282x375_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://rydeck.com/hellbender.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -323,16 +389,100 @@
     <image:image>
       <image:loc>http://rydeck.com/images/rydeck_hellbender_2575x398.jpg</image:loc>
     </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/img_4119.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/img_4119_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/img_4119575x384.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/img_4119575x384_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://rydeck.com/warden.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://rydeck.com/images/closed_front.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/closed_front_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_front.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_front_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers_2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers_2_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/drawer_detail.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/drawer_detail_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/full.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/full_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/closed_front575x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/closed_front575x375_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers575x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers575x375_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_front575x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_front575x375_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers_2575x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/open_angle_drawers_2575x375_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/drawer_detail575x375.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/drawer_detail575x375_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/full575x153.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/full575x153_2x.jpg</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>http://rydeck.com/about-me.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <loc>http://rydeck.com/resume.html</loc>
+    <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
