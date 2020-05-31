@@ -1,4 +1,7 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1589225987973">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1590953638768">
+  <folder name="assets">
+    <file name="decker_resume.pdf" crc="414030103" seo="true" mt="1590855663000"/>
+  </folder>
   <folder name="css">
     <file name="site_global.css" crc="4010206918"/>
     <file name="htsab.css" crc="217615653" ref="htsab"/>
@@ -11,7 +14,7 @@
     <file name="nomq_preview_master_home-master.css" crc="3860047233" ref="index"/>
     <file name="warden.css" crc="14793144" ref="warden"/>
     <file name="nomq_warden.css" crc="488502770" ref="warden"/>
-    <file name="hellbender.css" crc="3906705943" ref="hellbender"/>
+    <file name="hellbender.css" crc="3857940512" ref="hellbender"/>
     <file name="nomq_hellbender.css" crc="4270268239" ref="hellbender"/>
     <file name="plasma.css" crc="4075478128" ref="plasma"/>
     <file name="nomq_plasma.css" crc="3872393190" ref="plasma"/>
@@ -19,8 +22,8 @@
     <file name="nomq_bungler.css" crc="4041409615" ref="bungler"/>
     <file name="pictures.css" crc="3991358487" ref="pictures"/>
     <file name="nomq_pictures.css" crc="4041044993" ref="pictures"/>
-    <file name="resume.css" crc="131095923" ref="resume"/>
-    <file name="nomq_resume.css" crc="236952924" ref="resume"/>
+    <file name="resume.css" crc="262504825" ref="resume"/>
+    <file name="nomq_resume.css" crc="4060315742" ref="resume"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:htsab:plasma:pictures:bungler:hellbender:warden:resume"/>
@@ -599,10 +602,6 @@
     <file name="img_4119575x384_2x.jpg" crc="4041248691" seo="true" ref="hellbender">
       <caption webpage="hellbender" alt=""/>
     </file>
-    <file name="thumbsup-u12541.png" crc="3788326887" ref="resume"/>
-    <file name="thumbsup-u12541_2x.png" crc="3832949410" ref="resume"/>
-    <file name="thumbsup-u125412.png" crc="3899465185" ref="resume"/>
-    <file name="thumbsup-u12541_2x2.png" crc="3881744485" ref="resume"/>
     <file name="closed_front.jpg" crc="307650632" seo="true" ref="warden">
       <caption webpage="warden" alt=""/>
     </file>
@@ -675,13 +674,25 @@
     <file name="full575x153_2x.jpg" crc="4073187683" seo="true" ref="warden">
       <caption webpage="warden" alt=""/>
     </file>
+    <file name="decker_resume.jpg" crc="328209789" seo="true" ref="resume">
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="decker_resume_2x.jpg" crc="180622559" seo="true" ref="resume">
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="decker_resume577x750.jpg" crc="427468976" seo="true" ref="resume">
+      <caption webpage="resume" alt=""/>
+    </file>
+    <file name="decker_resume577x750_2x.jpg" crc="4145111005" seo="true" ref="resume">
+      <caption webpage="resume" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="3969839171" seo="true" mt="1589225465083" redirect="true"/>
   <file name="htsab.html" crc="4177889312" seo="true" mt="1588186220788" redirect="true"/>
   <file name="plasma.html" crc="4292740391" seo="true" mt="1588186331549" redirect="true"/>
   <file name="pictures.html" crc="4060437336" seo="true" mt="1587582829972" redirect="true"/>
   <file name="bungler.html" crc="61299941" seo="true" mt="1589224801131" redirect="true"/>
-  <file name="hellbender.html" crc="188447035" seo="true" mt="1589225985627" redirect="true"/>
+  <file name="hellbender.html" crc="381652517" seo="true" mt="1590953637748" redirect="true"/>
   <file name="warden.html" crc="3835516213" seo="true" mt="1589225352553" redirect="true"/>
-  <file name="resume.html" crc="4167817405" seo="true" mt="1589225962938" redirect="true"/>
+  <file name="resume.html" crc="3982179861" seo="true" mt="1590953597206" redirect="true"/>
 </manifest>

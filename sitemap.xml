@@ -19,6 +19,108 @@
     </image:image>
   </url>
   <url>
+    <loc>http://rydeck.com/pictures.html</loc>
+    <lastmod>2020-04-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://rydeck.com/images/scatter.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/scatter_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_1.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_1_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_2_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/heads10_final.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/heads10_final_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_30.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_30_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/7_01.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/7_01_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_29.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_29_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_26.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_26_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/scatter574x285.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/scatter574x285_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_1574x323.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_1574x323_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_2574x323.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/goohouse_2574x323_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/heads10_final574x862.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/heads10_final574x862_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_30574x431.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_30574x431_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/7_01575x432.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/7_01575x432_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_29574x766.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_29574x766_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_26574x431.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/6_26574x431_2x.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>http://rydeck.com/htsab.html</loc>
     <lastmod>2020-04-29</lastmod>
     <changefreq>weekly</changefreq>
@@ -181,105 +283,39 @@
     </image:image>
   </url>
   <url>
-    <loc>http://rydeck.com/pictures.html</loc>
-    <lastmod>2020-04-22</lastmod>
+    <loc>http://rydeck.com/hellbender.html</loc>
+    <lastmod>2020-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://rydeck.com/images/scatter.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_1.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/scatter_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_1_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_1.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_2.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_1_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_1575x326.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_2.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_1575x326_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_2_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/rydeck_hellbender_2575x398.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/heads10_final.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/img_4119.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/heads10_final_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/img_4119_2x.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/6_30.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/img_4119575x384.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/6_30_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/7_01.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/7_01_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_29.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_29_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_26.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_26_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/scatter574x285.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/scatter574x285_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_1574x323.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_1574x323_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_2574x323.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/goohouse_2574x323_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/heads10_final574x862.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/heads10_final574x862_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_30574x431.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_30574x431_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/7_01575x432.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/7_01575x432_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_29574x766.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_29574x766_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_26574x431.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/6_26574x431_2x.jpg</image:loc>
+      <image:loc>http://rydeck.com/images/img_4119575x384_2x.jpg</image:loc>
     </image:image>
   </url>
   <url>
@@ -367,42 +403,6 @@
     </image:image>
   </url>
   <url>
-    <loc>http://rydeck.com/hellbender.html</loc>
-    <lastmod>2020-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_1.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_1_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_1575x326.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_1575x326_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/rydeck_hellbender_2575x398.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/img_4119.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/img_4119_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/img_4119575x384.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/img_4119575x384_2x.jpg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>http://rydeck.com/warden.html</loc>
     <lastmod>2020-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -482,7 +482,25 @@
   </url>
   <url>
     <loc>http://rydeck.com/resume.html</loc>
-    <lastmod>2020-05-11</lastmod>
+    <lastmod>2020-05-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_resume.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_resume_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_resume577x750.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/decker_resume577x750_2x.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://rydeck.com/assets/decker_resume.pdf</loc>
+    <lastmod>2020-05-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
