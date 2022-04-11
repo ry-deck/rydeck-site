@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649654837048">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649656085955">
   <folder name="assets">
     <file name="decker_resume.pdf" crc="4023224259" seo="true" mt="1612396341000"/>
   </folder>
@@ -6,12 +6,12 @@
     <file name="site_global.css" crc="4010206918"/>
     <file name="htsab.css" crc="521678166" ref="htsab"/>
     <file name="nomq_htsab.css" crc="224901973" ref="htsab"/>
-    <file name="index.css" crc="4290912978" ref="index"/>
-    <file name="nomq_index.css" crc="171763204" ref="index"/>
+    <file name="index.css" crc="4255748592" ref="index"/>
+    <file name="nomq_index.css" crc="497925728" ref="index"/>
     <file name="master_subpage-master.css" crc="4195989371" ref="htsab:warden:hellbender:plasma:bungler:pictures:resume:bionic:tapestries"/>
     <file name="nomq_preview_master_subpage-master.css" crc="378367418" ref="htsab:warden:hellbender:plasma:bungler:pictures:resume:bionic:tapestries"/>
-    <file name="master_home-master.css" crc="3877117302" ref="index"/>
-    <file name="nomq_preview_master_home-master.css" crc="3860047233" ref="index"/>
+    <file name="master_home-master.css" crc="273407735" ref="index"/>
+    <file name="nomq_preview_master_home-master.css" crc="80806015" ref="index"/>
     <file name="warden.css" crc="506226365" ref="warden"/>
     <file name="nomq_warden.css" crc="488502770" ref="warden"/>
     <file name="hellbender.css" crc="486476856" ref="hellbender"/>
@@ -24,8 +24,8 @@
     <file name="nomq_pictures.css" crc="4020556510" ref="pictures"/>
     <file name="resume.css" crc="247106905" ref="resume"/>
     <file name="nomq_resume.css" crc="4060315742" ref="resume"/>
-    <file name="bionic.css" crc="3871604394" ref="bionic"/>
-    <file name="nomq_bionic.css" crc="4265324653" ref="bionic"/>
+    <file name="bionic.css" crc="4180611704" ref="bionic"/>
+    <file name="nomq_bionic.css" crc="4015441891" ref="bionic"/>
     <file name="tapestries.css" crc="244728209" ref="tapestries"/>
     <file name="nomq_tapestries.css" crc="4072031003" ref="tapestries"/>
   </folder>
@@ -55,10 +55,10 @@
     <file name="htsab_1.jpg" crc="3950517853" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
-    <file name="u94.png" crc="4040185740" ref="index"/>
-    <file name="u94_2x.png" crc="47571384" ref="index"/>
-    <file name="u94-r.png" crc="4264826238" ref="index"/>
-    <file name="u94-r_2x.png" crc="3922009204" ref="index"/>
+    <file name="u94.png" crc="4058127441" ref="index"/>
+    <file name="u94_2x.png" crc="4177175049" ref="index"/>
+    <file name="u94-r.png" crc="385314467" ref="index"/>
+    <file name="u94-r_2x.png" crc="325630002" ref="index"/>
     <file name="htsab_3.jpg" crc="247878289" seo="true" ref="htsab">
       <caption webpage="htsab" alt=""/>
     </file>
@@ -875,31 +875,31 @@
     <file name="bionic_3-crop-u13374.jpg" crc="4033899546" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0431-edit_crop-crop-u133792.jpg" crc="53399871" seo="true" ref="bionic">
+    <file name="_dsc0431-edit_crop-crop-u133792.jpg" crc="3905259169" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0431-edit_crop-crop-u13379_2x2.jpg" crc="519472938" seo="true" ref="bionic">
+    <file name="_dsc0431-edit_crop-crop-u13379_2x2.jpg" crc="176370717" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0442-crop-u133722.jpg" crc="4195890446" seo="true" ref="bionic">
+    <file name="_dsc0442-crop-u133722.jpg" crc="3904683496" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0442-crop-u13372_2x2.jpg" crc="265382102" seo="true" ref="bionic">
+    <file name="_dsc0442-crop-u13372_2x2.jpg" crc="6678479" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0458_crop-crop-u133762.jpg" crc="277114439" seo="true" ref="bionic">
+    <file name="_dsc0458_crop-crop-u133762.jpg" crc="3773840586" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0458_crop-crop-u13376_2x2.jpg" crc="3823035486" seo="true" ref="bionic">
+    <file name="_dsc0458_crop-crop-u13376_2x2.jpg" crc="4096923337" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="bionic_1-crop-u133812.jpg" crc="359860781" seo="true" ref="bionic">
+    <file name="bionic_1-crop-u133812.jpg" crc="363374748" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="bionic_1-crop-u13381_2x2.jpg" crc="4073275240" seo="true" ref="bionic">
+    <file name="bionic_1-crop-u13381_2x2.jpg" crc="3899314960" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="bionic_3-crop-u133742.jpg" crc="4274825903" seo="true" ref="bionic">
+    <file name="bionic_3-crop-u133742.jpg" crc="528073973" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
     <file name="tapestry_edit.jpg" crc="462283572" seo="true" ref="tapestries">
@@ -981,7 +981,7 @@
       <caption webpage="tapestries" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="204747805" seo="true" mt="1649654182654" redirect="true"/>
+  <file name="index.html" crc="422761119" seo="true" mt="1649656061011" redirect="true"/>
   <file name="htsab.html" crc="138642409" seo="true" mt="1649648708632" redirect="true"/>
   <file name="plasma.html" crc="141885991" seo="true" mt="1649650088702" redirect="true"/>
   <file name="pictures.html" crc="462656591" seo="true" mt="1649654035886" redirect="true"/>
@@ -989,6 +989,6 @@
   <file name="hellbender.html" crc="4113911608" seo="true" mt="1649648708632" redirect="true"/>
   <file name="warden.html" crc="361553867" seo="true" mt="1649648708632" redirect="true"/>
   <file name="resume.html" crc="481950998" seo="true" mt="1649648708632" redirect="true"/>
-  <file name="bionic.html" crc="4279954135" seo="true" mt="1649650553304" redirect="true"/>
+  <file name="bionic.html" crc="4022557716" seo="true" mt="1649655951938" redirect="true"/>
   <file name="tapestries.html" crc="3963569533" seo="true" mt="1649653177539" redirect="true"/>
 </manifest>
