@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649656085955">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649656797753">
   <folder name="assets">
     <file name="decker_resume.pdf" crc="4023224259" seo="true" mt="1612396341000"/>
   </folder>
@@ -24,8 +24,8 @@
     <file name="nomq_pictures.css" crc="4020556510" ref="pictures"/>
     <file name="resume.css" crc="247106905" ref="resume"/>
     <file name="nomq_resume.css" crc="4060315742" ref="resume"/>
-    <file name="bionic.css" crc="4180611704" ref="bionic"/>
-    <file name="nomq_bionic.css" crc="4015441891" ref="bionic"/>
+    <file name="bionic.css" crc="269450872" ref="bionic"/>
+    <file name="nomq_bionic.css" crc="4048803135" ref="bionic"/>
     <file name="tapestries.css" crc="244728209" ref="tapestries"/>
     <file name="nomq_tapestries.css" crc="4072031003" ref="tapestries"/>
   </folder>
@@ -848,22 +848,10 @@
     <file name="haunted4281x375_2x.jpg" crc="1120625" seo="true" ref="pictures">
       <caption webpage="pictures" alt=""/>
     </file>
-    <file name="_dsc0431-edit_crop-crop-u13379.jpg" crc="4097874483" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0431-edit_crop-crop-u13379_2x.jpg" crc="3939406915" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
     <file name="_dsc0442-crop-u13372.jpg" crc="20582923" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
     <file name="_dsc0442-crop-u13372_2x.jpg" crc="3810651434" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0458_crop-crop-u13376.jpg" crc="103625307" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0458_crop-crop-u13376_2x.jpg" crc="4000483702" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
     <file name="bionic_1-crop-u13381.jpg" crc="476912169" seo="true" ref="bionic">
@@ -875,22 +863,10 @@
     <file name="bionic_3-crop-u13374.jpg" crc="4033899546" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
-    <file name="_dsc0431-edit_crop-crop-u133792.jpg" crc="3905259169" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0431-edit_crop-crop-u13379_2x2.jpg" crc="176370717" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
     <file name="_dsc0442-crop-u133722.jpg" crc="3904683496" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
     <file name="_dsc0442-crop-u13372_2x2.jpg" crc="6678479" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0458_crop-crop-u133762.jpg" crc="3773840586" seo="true" ref="bionic">
-      <caption webpage="bionic" alt=""/>
-    </file>
-    <file name="_dsc0458_crop-crop-u13376_2x2.jpg" crc="4096923337" seo="true" ref="bionic">
       <caption webpage="bionic" alt=""/>
     </file>
     <file name="bionic_1-crop-u133812.jpg" crc="363374748" seo="true" ref="bionic">
@@ -980,6 +956,30 @@
     <file name="india_lowres188x251_2x.jpg" crc="4257856282" seo="true" ref="tapestries">
       <caption webpage="tapestries" alt=""/>
     </file>
+    <file name="_dsc0431-edit-crop-u13379.jpg" crc="534163256" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0431-edit-crop-u13379_2x.jpg" crc="4167408727" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0458-crop-u13376.jpg" crc="4266552431" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0458-crop-u13376_2x.jpg" crc="346571335" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0431-edit-crop-u133792.jpg" crc="3847139258" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0431-edit-crop-u13379_2x2.jpg" crc="194096695" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0458-crop-u133762.jpg" crc="3979282213" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
+    <file name="_dsc0458-crop-u13376_2x2.jpg" crc="3831300766" seo="true" ref="bionic">
+      <caption webpage="bionic" alt=""/>
+    </file>
   </folder>
   <file name="index.html" crc="422761119" seo="true" mt="1649656061011" redirect="true"/>
   <file name="htsab.html" crc="138642409" seo="true" mt="1649648708632" redirect="true"/>
@@ -989,6 +989,6 @@
   <file name="hellbender.html" crc="4113911608" seo="true" mt="1649648708632" redirect="true"/>
   <file name="warden.html" crc="361553867" seo="true" mt="1649648708632" redirect="true"/>
   <file name="resume.html" crc="481950998" seo="true" mt="1649648708632" redirect="true"/>
-  <file name="bionic.html" crc="4022557716" seo="true" mt="1649655951938" redirect="true"/>
+  <file name="bionic.html" crc="348537029" seo="true" mt="1649656786789" redirect="true"/>
   <file name="tapestries.html" crc="3963569533" seo="true" mt="1649653177539" redirect="true"/>
 </manifest>

@@ -594,22 +594,10 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0431-edit_crop-crop-u13379.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0431-edit_crop-crop-u13379_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/_dsc0442-crop-u13372.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/_dsc0442-crop-u13372_2x.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0458_crop-crop-u13376.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0458_crop-crop-u13376_2x.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/bionic_1-crop-u13381.jpg</image:loc>
@@ -621,22 +609,10 @@
       <image:loc>http://rydeck.com/images/bionic_3-crop-u13374.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0431-edit_crop-crop-u133792.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0431-edit_crop-crop-u13379_2x2.jpg</image:loc>
-    </image:image>
-    <image:image>
       <image:loc>http://rydeck.com/images/_dsc0442-crop-u133722.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/_dsc0442-crop-u13372_2x2.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0458_crop-crop-u133762.jpg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://rydeck.com/images/_dsc0458_crop-crop-u13376_2x2.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/bionic_1-crop-u133812.jpg</image:loc>
@@ -646,6 +622,30 @@
     </image:image>
     <image:image>
       <image:loc>http://rydeck.com/images/bionic_3-crop-u133742.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0431-edit-crop-u13379.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0431-edit-crop-u13379_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0458-crop-u13376.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0458-crop-u13376_2x.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0431-edit-crop-u133792.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0431-edit-crop-u13379_2x2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0458-crop-u133762.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://rydeck.com/images/_dsc0458-crop-u13376_2x2.jpg</image:loc>
     </image:image>
   </url>
   <url>
