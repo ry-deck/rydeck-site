@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649689723951">
+<manifest alg="2" build="2018.1.1.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="rydeck.com" resolutions="1x,2x" timestamp="1649776102294">
   <folder name="assets">
     <file name="decker_resume.pdf" crc="4023224259" seo="true" mt="1612396341000"/>
     <file name="2022_04_decker_resume.pdf" crc="27069674" seo="true" mt="1649688903000"/>
@@ -27,7 +27,7 @@
     <file name="nomq_resume.css" crc="4282715012" ref="resume"/>
     <file name="bionic.css" crc="4074647781" ref="bionic"/>
     <file name="nomq_bionic.css" crc="3789011780" ref="bionic"/>
-    <file name="tapestries.css" crc="4111913670" ref="tapestries"/>
+    <file name="tapestries.css" crc="4044847873" ref="tapestries"/>
     <file name="nomq_tapestries.css" crc="247072955" ref="tapestries"/>
   </folder>
   <folder name="scripts">
@@ -991,5 +991,5 @@
   <file name="warden.html" crc="252426852" seo="true" mt="1649656871563" redirect="true"/>
   <file name="resume.html" crc="4213922823" seo="true" mt="1649689048282" redirect="true"/>
   <file name="bionic.html" crc="4272766739" seo="true" mt="1649689706691" redirect="true"/>
-  <file name="tapestries.html" crc="360827874" seo="true" mt="1649656871563" redirect="true"/>
+  <file name="tapestries.html" crc="3922764446" seo="true" mt="1649776090416" redirect="true"/>
 </manifest>
