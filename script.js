@@ -41,13 +41,13 @@ function createProjects() {
   projects.forEach((project, index) => {
     const element = document.createElement("div");
     element.className = "project";
-
-    const minSize = parseInt(getComputedStyle(document.documentElement)
-      .getPropertyValue("--min-size"));
-    const maxSize = parseInt(getComputedStyle(document.documentElement)
-      .getPropertyValue("--max-size"));
-
-    const size = randomInt(minSize, maxSize);
+	const screenScale = Math.max(
+	0.35,
+	Math.min(window.innerWidth / 1200, 1)
+	);
+	const minSize = 150 * screenScale;
+	const maxSize = 200 * screenScale;
+	const size = randomInt(minSize, maxSize);
     const x = random(0, 100);
     const y = random(0, 100);
     const rotation = random(-14, 14);
@@ -214,3 +214,13 @@ document.addEventListener("keydown", (event) => {
 });
 
 createProjects();
+
+let resizeTimer;
+
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+
+  resizeTimer = setTimeout(() => {
+    createProjects();
+  }, 150);
+});

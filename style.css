@@ -201,9 +201,9 @@ button { font: inherit; }
 @media (max-width: 700px) {
   :root {
     --field-width: 88vw;
-    --field-height: 65vh;
-    --min-size: 110px;
-    --max-size: 230px;
+    --field-height: 75vh;
+	--min-size: clamp(55px, 18vw, 100px);
+	--max-size: clamp(90px, 30vw, 180px);
   }
 
   .logo-button {
