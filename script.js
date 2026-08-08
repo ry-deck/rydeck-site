@@ -78,20 +78,34 @@ function createProjects() {
 function enableDragging(element, project) {
   let dragging = false;
   let moved = false;
+
+  let startX = 0;
+  let startY = 0;
+
   let offsetX = 0;
   let offsetY = 0;
+
   let rotation = "0deg";
+
+  // How far the finger/mouse can move before it counts as a drag.
+  const dragThreshold = 8;
 
   element.addEventListener("pointerdown", (event) => {
     event.preventDefault();
+
     dragging = true;
     moved = false;
 
+    startX = event.clientX;
+    startY = event.clientY;
+
     const rect = element.getBoundingClientRect();
+
     offsetX = event.clientX - (rect.left + rect.width / 2);
     offsetY = event.clientY - (rect.top + rect.height / 2);
 
-    rotation = element.style.transform.match(/rotate\(([^)]+)\)/)?.[1] || "0deg";
+    rotation =
+      element.style.transform.match(/rotate\(([^)]+)\)/)?.[1] || "0deg";
 
     element.setPointerCapture(event.pointerId);
     element.style.zIndex = ++highestZ;
@@ -100,7 +114,20 @@ function enableDragging(element, project) {
   element.addEventListener("pointermove", (event) => {
     if (!dragging) return;
 
+    const distanceX = event.clientX - startX;
+    const distanceY = event.clientY - startY;
+
+    const distance = Math.sqrt(
+      distanceX * distanceX + distanceY * distanceY
+    );
+
+    // Ignore tiny finger/mouse movements.
+    if (distance < dragThreshold) {
+      return;
+    }
+
     moved = true;
+
     const fieldRect = projectField.getBoundingClientRect();
 
     const x = event.clientX - fieldRect.left - offsetX;
@@ -108,16 +135,23 @@ function enableDragging(element, project) {
 
     element.style.left = `${(x / fieldRect.width) * 100}%`;
     element.style.top = `${(y / fieldRect.height) * 100}%`;
+
     element.style.transform =
       `translate(-50%, -50%) rotate(${rotation})`;
   });
 
   element.addEventListener("pointerup", (event) => {
     if (!dragging) return;
+
     dragging = false;
+
     element.releasePointerCapture(event.pointerId);
 
-    if (!moved) openGallery(project);
+    // Tap/click opens project.
+    // Actual drag does not.
+    if (!moved) {
+      openGallery(project);
+    }
   });
 }
 
