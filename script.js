@@ -42,7 +42,7 @@ function createProjects() {
     const element = document.createElement("div");
     element.className = "project";
 	const screenScale = Math.max(
-	0.35,
+	0.6,
 	Math.min(window.innerWidth / 1200, 1)
 	);
 	const minSize = 150 * screenScale;

@@ -6,6 +6,9 @@
   <title>Ryan Decker</title>
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <main id="home">
@@ -28,9 +31,20 @@
   <section id="bio" class="overlay" aria-hidden="true">
     <button class="close-button" aria-label="Close bio">×</button>
     <div class="bio-content">
-      <img src="assets/me.jpg" alt="Portrait">
-      <div id="bio-text" class="bio-text"></div>
-    </div>
+  <img src="assets/me.jpg" alt="Portrait">
+
+  <div class="bio-info">
+    <div id="bio-text" class="bio-text"></div>
+
+    <a
+      href="assets/CV.pdf"
+      target="_blank"
+      class="cv-link"
+    >
+      CV
+    </a>
+  </div>
+</div>
   </section>
 
   <script src="projects.js"></script>

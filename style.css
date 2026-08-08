@@ -5,8 +5,8 @@
   --max-size: 200px;
   --field-width: 62vw;
   --field-height: 62vh;
-  --logo-width: 250px;
-  --logo-offset: 40px;
+  --logo-width: clamp(150px, 12vw, 250px);
+  --logo-offset: 30px;
 }
 
 * { box-sizing: border-box; }
@@ -16,7 +16,7 @@ html, body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -198,18 +198,29 @@ button { font: inherit; }
   line-height: 1.5;
 }
 
+.cv-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.cv-link:hover {
+  text-decoration: none;
+}
+
 @media (max-width: 700px) {
   :root {
     --field-width: 88vw;
     --field-height: 75vh;
-	--min-size: clamp(55px, 18vw, 100px);
-	--max-size: clamp(90px, 30vw, 180px);
+	--min-size: clamp(150px, 18vw, 150px);
+	--max-size: clamp(2000px, 30vw, 200px);
   }
 
   .logo-button {
   top:  var(--logo-offset);
   left: 50%;
-  width: var(--logo-width);
   transform: translateX(-50%);
 }
 
