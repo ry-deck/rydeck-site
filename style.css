@@ -17,6 +17,7 @@ html, body {
   height: 100%;
   overflow: hidden;
   font-family: "Roboto", sans-serif;
+  font-weight: 300; /* light */
 }
 
 body {
@@ -227,16 +228,43 @@ button { font: inherit; }
   .gallery-content { width: 88vw; height: 82vh; }
   .gallery-arrow { padding: 15px; }
 
-  .bio-content {
-    flex-direction: column;
-    align-items: center;
-    overflow-y: auto;
-  }
+  #bio {
+  display: none;
+  overflow-y: auto;
+  align-items: flex-start;
+  padding: 70px 0 60px;
+}
 
-  .bio-content > img {
-    width: 55vw;
-    max-height: 45vh;
-  }
+#bio.open {
+  display: flex;
+}
 
-  .bio-text { max-width: 85vw; }
+#bio .close-button {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}
+
+.bio-content {
+  flex-direction: column;
+  align-items: center;
+  width: 85vw;
+  max-height: none;
+  overflow: visible;
+  margin: 0 auto;
+}
+
+.bio-content > img {
+  width: 55vw;
+  max-height: none;
+  object-fit: contain;
+}
+
+.bio-info {
+  width: 100%;
+}
+
+.bio-text {
+  max-width: 100%;
+}
 }
