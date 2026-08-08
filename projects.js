@@ -36,6 +36,16 @@ const PROJECTS = [
     "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\n"
   },
   {
+    "name": "Bird Gets Worm",
+    "image": "projects/Bird Gets Worm 0.jpg",
+    "images": [
+      "projects/Bird Gets Worm 1.jpg",
+      "projects/Bird Gets Worm 2.jpg",
+      "projects/Bird Gets Worm 3.jpg"
+    ],
+    "text": "Bird Gets Worm (Bald Knob)\nAsh, Printed Fiberglass\n91 x 13 x 15 inches\n2024"
+  },
+  {
     "name": "Bricks and Bones with a Fairy on Top",
     "image": "projects/Bricks and Bones with a Fairy on Top 0.jpg",
     "images": [
@@ -44,6 +54,15 @@ const PROJECTS = [
       "projects/Bricks and Bones with a Fairy on Top 3.jpg"
     ],
     "text": "Bricks and Bones with a Fairy on Top\nCarved basswood, acrylic, white bronze\n54 x 27 x 18 inches\n2022\n"
+  },
+  {
+    "name": "Comfort Station",
+    "image": "projects/Comfort Station 0.jpg",
+    "images": [
+      "projects/Comfort Station 1.jpg",
+      "projects/Comfort Station 2.jpg"
+    ],
+    "text": "Comfort Station\nAluminum, Resin, Nylon Webbing\n38 x 11 x 6 inches\n2024\n"
   },
   {
     "name": "Culm Sconce",
@@ -61,14 +80,17 @@ const PROJECTS = [
     "images": [
       "projects/Dwellings for Ruffled Warblers 1.jpg"
     ],
-    "text": ""
+    "text": "Dwellings for Ruffled Warblers\nUV-printed aluminum, 3D printed PLA, and acrylic housing with 6.5-inch full-range bluetooth-enabled speakers\n18 x 16 x 26 inches each\n2022"
   },
   {
     "name": "Fetus Cycle",
     "image": "projects/Fetus Cycle 0.jpg",
     "images": [
       "projects/Fetus Cycle 1.jpg",
-      "projects/Fetus Cycle 2.jpg"
+      "projects/Fetus Cycle 2.jpg",
+      "projects/Fetus Cycle 3.jpg",
+      "projects/Fetus Cycle 4.jpg",
+      "projects/Fetus Cycle 5.jpg"
     ],
     "text": "Fetus Cycle\nCarved basswood, resin, acrylic, mirror\n66 x 24 x 12 inches\n2022"
   },
@@ -77,15 +99,19 @@ const PROJECTS = [
     "image": "projects/Green Bean Bulwark 0.jpg",
     "images": [
       "projects/Green Bean Bulwark 1.jpg",
-      "projects/Green Bean Bulwark 2.jpg"
+      "projects/Green Bean Bulwark 2.jpg",
+      "projects/Green Bean Bulwark 3.jpg",
+      "projects/Green Bean Bulwark 4.jpg"
     ],
-    "text": ""
+    "text": "Green Bean Bulwark\nBlown glass, Polylactic acid\n12 x 7 x 10 inches\n2022"
   },
   {
     "name": "Lantern for Your Downtown Dungeon",
     "image": "projects/Lantern for Your Downtown Dungeon 0.jpg",
     "images": [
-      "projects/Lantern for Your Downtown Dungeon 1.jpg"
+      "projects/Lantern for Your Downtown Dungeon 1.jpg",
+      "projects/Lantern for Your Downtown Dungeon 2.jpg",
+      "projects/Lantern for Your Downtown Dungeon 3.jpg"
     ],
     "text": "Lantern for Your Downtown Dungeon\nUV-printed aluminum, cast glass, lamp parts\n19 x 9 x 9 inches\n2022"
   },
@@ -94,7 +120,8 @@ const PROJECTS = [
     "image": "projects/Leaky Bladder 0.jpg",
     "images": [
       "projects/Leaky Bladder 1.jpg",
-      "projects/Leaky Bladder 2.jpg"
+      "projects/Leaky Bladder 2.jpg",
+      "projects/Leaky Bladder 3.jpg"
     ],
     "text": "Leaky Bladder\nFiberglass, resin, aluminum, cherry\n12 x 15 x 10 inches\n2024"
   },
@@ -105,7 +132,7 @@ const PROJECTS = [
       "projects/Limneria 1.jpg",
       "projects/Limneria 2.jpg"
     ],
-    "text": ""
+    "text": "Limneria\nUV-printed aluminum, resin, metallic paint\n7 x 12 x 5 inches\n2023"
   },
   {
     "name": "Lustrous Wall Receptacle",
@@ -138,7 +165,10 @@ const PROJECTS = [
     "image": "projects/Relic of Yore 0.jpg",
     "images": [
       "projects/Relic of Yore 1.jpg",
-      "projects/Relic of Yore 2.jpg"
+      "projects/Relic of Yore 2.jpg",
+      "projects/Relic of Yore 3.jpg",
+      "projects/Relic of Yore 4.jpg",
+      "projects/Relic of Yore 5.jpg"
     ],
     "text": "Relic of Yore\nUV-printed aluminum, pate de verre, steel, lamp parts\n72 x 17 x 17 inches\n2022"
   },
@@ -147,7 +177,8 @@ const PROJECTS = [
     "image": "projects/Remote Access Viewer 0.jpg",
     "images": [
       "projects/Remote Access Viewer 1.jpg",
-      "projects/Remote Access Viewer 2.jpg"
+      "projects/Remote Access Viewer 2.jpg",
+      "projects/Remote Access Viewer 3.jpg"
     ],
     "text": "Spirit Stove\nCherry, Glass, Aluminum\n11 x 18 x 8 inches\n2024\n"
   },
@@ -158,7 +189,7 @@ const PROJECTS = [
       "projects/Servant of Ash 1.jpg",
       "projects/Servant of Ash 2.jpg"
     ],
-    "text": ""
+    "text": "Malformed Servant of Ash\nBlown glass\n8 x 8 x 4 inches\n2022"
   },
   {
     "name": "Sluggard Waker",
@@ -180,7 +211,8 @@ const PROJECTS = [
     "image": "projects/Spirit Stove 0.jpg",
     "images": [
       "projects/Spirit Stove 1.jpg",
-      "projects/Spirit Stove 2.jpg"
+      "projects/Spirit Stove 2.jpg",
+      "projects/Spirit Stove 3.jpg"
     ],
     "text": "Spirit Stove\nCherry, Glass, Aluminum\n11 x 18 x 8 inches\n2024\n"
   },
