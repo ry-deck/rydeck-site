@@ -11,7 +11,7 @@ const PROJECTS = [
       "projects/Armet and Pocket Change 1.jpg",
       "projects/Armet and Pocket Change 2.jpg"
     ],
-    "text": ""
+    "text": "Armet and Pocket Change\nCarved basswood and acrylic\n30 x 15 x 37 inches\n2022"
   },
   {
     "name": "Back Of Beyond",
@@ -19,18 +19,11 @@ const PROJECTS = [
     "images": [
       "projects/Back Of Beyond 1.jpg",
       "projects/Back Of Beyond 2.jpg",
+      "projects/Back Of Beyond 3.jpg",
       "projects/Back Of Beyond 4.jpg",
       "projects/Back Of Beyond 5.jpg"
     ],
-    "text": ""
-  },
-  {
-    "name": "Back of Beyond",
-    "image": "projects/Back of Beyond 3.jpg",
-    "images": [
-      "projects/Back of Beyond 3.jpg"
-    ],
-    "text": ""
+    "text": "Back of Beyond\nEpoxy Clay, Cherry, Fiberglass, Stainless Steel\n70 x 38 x 31 inches\n2024\n"
   },
   {
     "name": "Bionic Knees for Atlas",
@@ -40,7 +33,7 @@ const PROJECTS = [
       "projects/Bionic Knees for Atlas 2.jpg",
       "projects/Bionic Knees for Atlas 3.jpg"
     ],
-    "text": ""
+    "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\n"
   },
   {
     "name": "Bricks and Bones with a Fairy on Top",
@@ -50,7 +43,7 @@ const PROJECTS = [
       "projects/Bricks and Bones with a Fairy on Top 2.jpg",
       "projects/Bricks and Bones with a Fairy on Top 3.jpg"
     ],
-    "text": ""
+    "text": "Bricks and Bones with a Fairy on Top\nCarved basswood, acrylic, white bronze\n54 x 27 x 18 inches\n2022\n"
   },
   {
     "name": "Culm Sconce",
@@ -60,7 +53,7 @@ const PROJECTS = [
       "projects/Culm Sconce 2.jpg",
       "projects/Culm Sconce 3.jpg"
     ],
-    "text": ""
+    "text": "Culm Sconce\nAsh, PLA, fiberglass, resin, lamp parts\n11 x 4 x 64 inches\n2026\n"
   },
   {
     "name": "Dwellings for Ruffled Warblers",
@@ -77,7 +70,7 @@ const PROJECTS = [
       "projects/Fetus Cycle 1.jpg",
       "projects/Fetus Cycle 2.jpg"
     ],
-    "text": ""
+    "text": "Fetus Cycle\nCarved basswood, resin, acrylic, mirror\n66 x 24 x 12 inches\n2022"
   },
   {
     "name": "Green Bean Bulwark",
@@ -94,7 +87,7 @@ const PROJECTS = [
     "images": [
       "projects/Lantern for Your Downtown Dungeon 1.jpg"
     ],
-    "text": ""
+    "text": "Lantern for Your Downtown Dungeon\nUV-printed aluminum, cast glass, lamp parts\n19 x 9 x 9 inches\n2022"
   },
   {
     "name": "Leaky Bladder",
@@ -103,7 +96,7 @@ const PROJECTS = [
       "projects/Leaky Bladder 1.jpg",
       "projects/Leaky Bladder 2.jpg"
     ],
-    "text": ""
+    "text": "Leaky Bladder\nFiberglass, resin, aluminum, cherry\n12 x 15 x 10 inches\n2024"
   },
   {
     "name": "Limneria",
@@ -138,7 +131,7 @@ const PROJECTS = [
       "projects/Mudlark 9.jpg",
       "projects/Mudlark 10.jpg"
     ],
-    "text": "Mudlark\n2026\n\nAdd your project information here."
+    "text": "Mudlark\nUV-printed aluminum, PLA, acrylic, lamp parts\n21 x 10 x 59 inches\n2023"
   },
   {
     "name": "Relic of Yore",
@@ -147,7 +140,7 @@ const PROJECTS = [
       "projects/Relic of Yore 1.jpg",
       "projects/Relic of Yore 2.jpg"
     ],
-    "text": ""
+    "text": "Relic of Yore\nUV-printed aluminum, pate de verre, steel, lamp parts\n72 x 17 x 17 inches\n2022"
   },
   {
     "name": "Remote Access Viewer",
@@ -156,7 +149,7 @@ const PROJECTS = [
       "projects/Remote Access Viewer 1.jpg",
       "projects/Remote Access Viewer 2.jpg"
     ],
-    "text": ""
+    "text": "Spirit Stove\nCherry, Glass, Aluminum\n11 x 18 x 8 inches\n2024\n"
   },
   {
     "name": "Servant of Ash",
@@ -180,7 +173,7 @@ const PROJECTS = [
       "projects/Sluggard Waker 7.jpg",
       "projects/Sluggard Waker 8.jpg"
     ],
-    "text": ""
+    "text": "Sluggard Waker\nUV-printed aluminum, PLA, acrylic, lamp parts\n23 x 10 x 58 inches\n2023"
   },
   {
     "name": "Spirit Stove",
@@ -189,7 +182,7 @@ const PROJECTS = [
       "projects/Spirit Stove 1.jpg",
       "projects/Spirit Stove 2.jpg"
     ],
-    "text": ""
+    "text": "Spirit Stove\nCherry, Glass, Aluminum\n11 x 18 x 8 inches\n2024\n"
   },
   {
     "name": "Trojan",
@@ -201,7 +194,7 @@ const PROJECTS = [
       "projects/Trojan 4.jpg",
       "projects/Trojan 5.jpg"
     ],
-    "text": ""
+    "text": "Trojan\nPLA, plaster, latex, resin, aluminum, fiberglass\n40 x 28 x 43 inches\n2025"
   },
   {
     "name": "Vase With Visor",

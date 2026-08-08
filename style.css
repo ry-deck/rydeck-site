@@ -5,7 +5,7 @@
   --max-size: 200px;
   --field-width: 62vw;
   --field-height: 62vh;
-  --logo-width: clamp(150px, 12vw, 250px);
+  --logo-width: clamp(300px, 12vw, 500px);
   --logo-offset: 30px;
 }
 
@@ -216,7 +216,7 @@ button { font: inherit; }
     --field-width: 88vw;
     --field-height: 75vh;
 	--min-size: clamp(150px, 18vw, 150px);
-	--max-size: clamp(2000px, 30vw, 200px);
+	--max-size: clamp(200px, 30vw, 200px);
   }
 
   .logo-button {

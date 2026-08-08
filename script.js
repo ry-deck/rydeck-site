@@ -13,6 +13,8 @@ const logoButton = document.getElementById("logo-button");
 let currentProject = null;
 let currentImage = 0;
 let highestZ = 1;
+let touchStartX = 0;
+let touchEndX = 0;
 
 const frameFiles = [
   "frame01.png",
@@ -211,6 +213,25 @@ gallery.addEventListener("click", (event) => {
 bio.addEventListener("click", (event) => {
   if (event.target === bio) closeBio();
 });
+
+gallery.addEventListener("touchstart", (event) => {
+  touchStartX = event.changedTouches[0].screenX;
+}, { passive: true });
+
+gallery.addEventListener("touchend", (event) => {
+  touchEndX = event.changedTouches[0].screenX;
+
+  const swipeDistance = touchEndX - touchStartX;
+  const swipeThreshold = 50;
+
+  if (Math.abs(swipeDistance) < swipeThreshold) return;
+
+  if (swipeDistance < 0) {
+    nextImage();
+  } else {
+    previousImage();
+  }
+}, { passive: true });
 
 async function openBio() {
   try {
