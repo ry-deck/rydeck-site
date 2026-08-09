@@ -16,6 +16,12 @@ let highestZ = 1;
 let touchStartX = 0;
 let touchEndX = 0;
 
+function trackEvent(name, params = {}) {
+  if (typeof gtag === "function") {
+    gtag("event", name, params);
+  }
+}
+
 const frameFiles = [
   "frame01.png",
   "frame02.png",
@@ -213,9 +219,13 @@ function formatBioText(text) {
 function openGallery(project) {
   currentProject = project;
   currentImage = 0;
+  trackEvent("project_open", {
+  project_name: project.name
+});
   gallery.classList.add("open");
   gallery.setAttribute("aria-hidden", "false");
   showGalleryImage();
+
 }
 
 function showGalleryImage() {
@@ -243,6 +253,11 @@ function showGalleryImage() {
 
     galleryMedia.appendChild(img);
   }
+  
+trackEvent("gallery_slide", {
+  project_name: currentProject.name,
+  slide_number: currentImage + 1
+});
 
   galleryText.innerHTML = formatProjectText(
     currentProject.text || currentProject.name
@@ -350,7 +365,7 @@ async function openBio() {
   } catch {
     bioText.textContent = "Add your biography to assets/bio.txt";
   }
-
+  trackEvent("bio_open");
   bio.classList.add("open");
   bio.setAttribute("aria-hidden", "false");
 }
@@ -378,6 +393,17 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
+document.addEventListener("click", (event) => {
+  const link = event.target.closest("a");
+
+  if (!link) return;
+
+  trackEvent("link_click", {
+    link_url: link.href,
+    link_text: link.textContent.trim()
+  });
+});
+
 createProjects();
 
 let resizeTimer;
@@ -389,3 +415,4 @@ window.addEventListener("resize", () => {
     createProjects();
   }, 150);
 });
+
