@@ -183,7 +183,7 @@ const PROJECTS = [
       "projects/Lustrous Wall Receptacle 1.jpg",
       "projects/Lustrous Wall Receptacle 2.jpg"
     ],
-    "text": "",
+    "text": "Lustrous Wall Receptacles\nBlown glass, PLA, acrylic\n12 x 20 x 10 inches each\n2022",
     "exhibition": false
   },
   {
@@ -225,7 +225,7 @@ const PROJECTS = [
       "projects/Remote Access Viewer 2.jpg",
       "projects/Remote Access Viewer 3.jpg"
     ],
-    "text": "Spirit Stove\nCherry, Glass, Aluminum\n11 x 18 x 8 inches\n2024\n",
+    "text": "Remote Access Viewer\nAsh, PLA, Resin, Acrylic, Glass, Cherry, Fiberglass\n35 x 41 x 12 inches\n2024",
     "exhibition": false
   },
   {
@@ -284,7 +284,7 @@ const PROJECTS = [
     "images": [
       "projects/Vase With Visor 1.jpg"
     ],
-    "text": "",
+    "text": "Vase with Visor\nFiberglass, resin, copper\n12 x 5 x 8 inches\n2023",
     "exhibition": false
   }
 ];
