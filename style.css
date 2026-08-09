@@ -140,6 +140,10 @@ button { font: inherit; }
   user-select: none;
 }
 
+.project-title {
+  font-weight: 500;
+}
+
 .gallery-text {
   width: 100%;
   max-width: 700px;

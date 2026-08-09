@@ -167,6 +167,16 @@ function linkify(text) {
   });
 }
 
+function formatProjectText(text) {
+  const lines = text.split("\n");
+
+  if (lines.length > 0) {
+    lines[0] = `<span class="project-title">${lines[0]}</span>`;
+  }
+
+  return linkify(lines.join("\n"));
+}
+
 function openGallery(project) {
   currentProject = project;
   currentImage = 0;
@@ -179,7 +189,7 @@ function showGalleryImage() {
   if (!currentProject) return;
   galleryImage.src = currentProject.images[currentImage];
   galleryImage.alt = `${currentProject.name} ${currentImage + 1}`;
-  galleryText.innerHTML = linkify(
+  galleryText.innerHTML = formatProjectText(
   currentProject.text || currentProject.name
 );
 }
