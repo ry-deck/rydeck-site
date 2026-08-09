@@ -63,9 +63,13 @@ const PROJECTS = [
       {
         "type": "image",
         "url": "projects/Bionic Knees for Atlas 3.jpg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/UaGId8oOTdw"
       }
     ],
-    "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\n",
+    "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\n\nhttps://www.emmascullygallery.com/artworks/281-ryan-decker-bionic-knees-for-atlas-2021/",
     "exhibition": false
   },
   {
@@ -219,6 +223,10 @@ const PROJECTS = [
       {
         "type": "image",
         "url": "projects/EX_Feudal Relief 6.jpg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/wu4Fla8EX8k?si=dph0WslptUvFhoeH"
       }
     ],
     "text": "Feudal Relief\nSolo show at Superhouse Gallery\nMay 20 — August 14, 2022\nhttps://www.superhouse.us/exhibitions/ryan-decker-feudal-relief\n\nSelect Press:\nhttps://www.curbed.com/2022/06/designer-ryan-decker-exhibit-feudal-relief-superhouse.html\n",
