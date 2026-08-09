@@ -4,7 +4,7 @@
 
 const projectField = document.getElementById("project-field");
 const gallery = document.getElementById("gallery");
-const galleryImage = document.getElementById("gallery-image");
+const galleryMedia = document.getElementById("gallery-media");
 const galleryText = document.getElementById("gallery-text");
 const bio = document.getElementById("bio");
 const bioText = document.getElementById("bio-text");
@@ -220,11 +220,33 @@ function openGallery(project) {
 
 function showGalleryImage() {
   if (!currentProject) return;
-  galleryImage.src = currentProject.images[currentImage];
-  galleryImage.alt = `${currentProject.name} ${currentImage + 1}`;
+
+  const media = currentProject.images[currentImage];
+
+  galleryMedia.innerHTML = "";
+
+  if (media.type === "youtube") {
+    const iframe = document.createElement("iframe");
+
+    iframe.src = media.url;
+    iframe.allow =
+      "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+
+    iframe.allowFullscreen = true;
+
+    galleryMedia.appendChild(iframe);
+  } else {
+    const img = document.createElement("img");
+
+    img.src = media.url;
+    img.alt = `${currentProject.name} ${currentImage + 1}`;
+
+    galleryMedia.appendChild(img);
+  }
+
   galleryText.innerHTML = formatProjectText(
-  currentProject.text || currentProject.name
-);
+    currentProject.text || currentProject.name
+  );
 }
 
 function nextImage() {
@@ -244,9 +266,13 @@ function previousImage() {
 function closeGallery() {
   gallery.classList.remove("open");
   gallery.setAttribute("aria-hidden", "true");
+
+  // Remove the current image/video.
+  // This stops YouTube playback immediately.
+  galleryMedia.innerHTML = "";
+
   currentProject = null;
 }
-
 document.querySelector(".gallery-next").addEventListener("click", (e) => {
   e.stopPropagation();
   nextImage();

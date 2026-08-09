@@ -133,11 +133,25 @@ button { font: inherit; }
   justify-content: center;
 }
 
-#gallery-image {
+#gallery-media {
+  width: 100%;
+  height: calc(100% - 90px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gallery-media img {
   max-width: 100%;
-  max-height: calc(100% - 90px);
+  max-height: 100%;
   object-fit: contain;
-  user-select: none;
+}
+
+#gallery-media iframe {
+  width: min(80vw, 1100px);
+  aspect-ratio: 16 / 9;
+  max-height: 75vh;
+  border: 0;
 }
 
 .project-title {
