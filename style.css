@@ -154,12 +154,19 @@ button { font: inherit; }
   white-space: pre-wrap;
 }
 
-.gallery-text a {
+.gallery-text strong,
+.bio-text strong {
+  font-weight: 700;
+}
+
+.gallery-text a,
+.bio-text a {
   color: inherit;
   text-decoration: underline;
 }
 
-.gallery-text a:hover {
+.gallery-text a:hover,
+.bio-text a:hover {
   text-decoration: none;
 }
 
@@ -190,13 +197,21 @@ button { font: inherit; }
   font-size: 38px;
 }
 
+#bio {
+  overflow-y: auto;
+  align-items: flex-start;
+  padding: 80px 0;
+}
+
+
 .bio-content {
   width: min(700px, 80vw);
-  max-height: 85vh;
+  max-height: none;
   display: flex;
   gap: 35px;
   align-items: flex-start;
   color: white;
+  margin: auto;
 }
 
 .bio-content > img {
@@ -210,6 +225,12 @@ button { font: inherit; }
   white-space: pre-wrap;
   font-size: 14px;
   line-height: 1.5;
+}
+
+#bio .close-button {
+  position: fixed;
+  top: 22px;
+  right: 28px;
 }
 
 .cv-link {
@@ -259,12 +280,13 @@ button { font: inherit; }
 }
 
 .bio-content {
-  flex-direction: column;
-  align-items: center;
-  width: 85vw;
+  width: min(700px, 80vw);
   max-height: none;
-  overflow: visible;
-  margin: 0 auto;
+  display: flex;
+  gap: 35px;
+  align-items: flex-start;
+  color: white;
+  margin: auto;
 }
 
 .bio-content > img {

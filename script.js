@@ -160,21 +160,54 @@ function enableDragging(element, project) {
 }
 
 function linkify(text) {
-  const urlRegex = /(https?:\/\/[^\s]+)/g;
+  // Web links
+  text = text.replace(
+    /(https?:\/\/[^\s]+)/g,
+    '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>'
+  );
 
-  return text.replace(urlRegex, (url) => {
-    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
-  });
+  // Email addresses
+  text = text.replace(
+    /([A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,})/gi,
+    '<a href="mailto:$1">$1</a>'
+  );
+
+  return text;
 }
 
 function formatProjectText(text) {
   const lines = text.split("\n");
 
+  // Format first line
   if (lines.length > 0) {
     lines[0] = `<span class="project-title">${lines[0]}</span>`;
   }
 
-  return linkify(lines.join("\n"));
+  let formatted = lines.join("\n");
+
+  // **text** becomes bold
+  formatted = formatted.replace(
+    /\*\*(.*?)\*\*/g,
+    "<strong>$1</strong>"
+  );
+
+  // Convert URLs and email addresses into links
+  formatted = linkify(formatted);
+
+  return formatted;
+}
+
+function formatBioText(text) {
+  // **text** becomes bold
+  text = text.replace(
+    /\*\*(.*?)\*\*/g,
+    "<strong>$1</strong>"
+  );
+
+  // Make URLs and email addresses clickable
+  text = linkify(text);
+
+  return text;
 }
 
 function openGallery(project) {
@@ -285,7 +318,9 @@ gallery.addEventListener("wheel", (event) => {
 async function openBio() {
   try {
     const response = await fetch("assets/bio.txt");
-    bioText.textContent = await response.text();
+    const text = await response.text();
+
+    bioText.innerHTML = formatBioText(text);
   } catch {
     bioText.textContent = "Add your biography to assets/bio.txt";
   }
