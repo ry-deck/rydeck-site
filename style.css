@@ -150,6 +150,15 @@ button { font: inherit; }
   white-space: pre-wrap;
 }
 
+.gallery-text a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.gallery-text a:hover {
+  text-decoration: none;
+}
+
 .gallery-arrow, .close-button {
   position: absolute;
   z-index: 10;

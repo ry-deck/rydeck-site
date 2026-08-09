@@ -62,7 +62,9 @@ function createProjects() {
       `translate(-50%, -50%) rotate(${rotation}deg)`;
     element.style.zIndex = ++highestZ;
 
-    const frame = frameFiles[index % frameFiles.length];
+    const frame = project.exhibition
+  ? "EX_frame.png"
+  : frameFiles[index % frameFiles.length];
 	const frameRotation = [0, 90, 270][Math.floor(Math.random() * 4)];
 
     element.innerHTML = `
@@ -157,6 +159,14 @@ function enableDragging(element, project) {
   });
 }
 
+function linkify(text) {
+  const urlRegex = /(https?:\/\/[^\s]+)/g;
+
+  return text.replace(urlRegex, (url) => {
+    return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+  });
+}
+
 function openGallery(project) {
   currentProject = project;
   currentImage = 0;
@@ -169,7 +179,9 @@ function showGalleryImage() {
   if (!currentProject) return;
   galleryImage.src = currentProject.images[currentImage];
   galleryImage.alt = `${currentProject.name} ${currentImage + 1}`;
-  galleryText.textContent = currentProject.text || currentProject.name;
+  galleryText.innerHTML = linkify(
+  currentProject.text || currentProject.name
+);
 }
 
 function nextImage() {
@@ -232,6 +244,33 @@ gallery.addEventListener("touchend", (event) => {
     previousImage();
   }
 }, { passive: true });
+
+let wheelLocked = false;
+
+gallery.addEventListener("wheel", (event) => {
+  event.preventDefault();
+
+  if (wheelLocked) return;
+
+  const movement =
+    Math.abs(event.deltaX) > Math.abs(event.deltaY)
+      ? event.deltaX
+      : event.deltaY;
+
+  if (Math.abs(movement) < 10) return;
+
+  wheelLocked = true;
+
+  if (movement > 0) {
+    nextImage();
+  } else {
+    previousImage();
+  }
+
+  setTimeout(() => {
+    wheelLocked = false;
+  }, 50);
+}, { passive: false });
 
 async function openBio() {
   try {
