@@ -158,6 +158,25 @@ button { font: inherit; }
   font-weight: 500;
 }
 
+.project-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}
+
+.inquire-link {
+  margin-left: auto;
+  color: inherit;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inquire-link:hover {
+  text-decoration: none;
+}
+
 .gallery-text {
   width: 100%;
   max-width: 700px;

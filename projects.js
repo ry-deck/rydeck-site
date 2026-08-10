@@ -69,7 +69,7 @@ const PROJECTS = [
         "url": "https://www.youtube.com/embed/UaGId8oOTdw"
       }
     ],
-    "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\n\nhttps://www.emmascullygallery.com/artworks/281-ryan-decker-bionic-knees-for-atlas-2021/",
+    "text": "Bionic Knees for Atlas\nCast iron, blown glass, silicone, lamp parts\n22 x 16 x 64 inches\n2021\nINQUIRE",
     "exhibition": false
   },
   {
@@ -89,7 +89,7 @@ const PROJECTS = [
         "url": "projects/Bird Gets Worm 3.jpg"
       }
     ],
-    "text": "Bird Gets Worm (Bald Knob)\nAsh, Printed Fiberglass\n91 x 13 x 15 inches\n2024",
+    "text": "Bird Gets Worm (Bald Knob)\nAsh, Printed Fiberglass\n91 x 13 x 15 inches\n2024\nINQUIRE",
     "exhibition": false
   },
   {
@@ -125,7 +125,7 @@ const PROJECTS = [
         "url": "projects/Comfort Station 2.jpg"
       }
     ],
-    "text": "Comfort Station\nAluminum, Resin, Nylon Webbing\n38 x 11 x 6 inches\n2024\n",
+    "text": "Comfort Station\nAluminum, Resin, Nylon Webbing\n38 x 11 x 6 inches\n2024\nINQUIRE",
     "exhibition": false
   },
   {
@@ -145,7 +145,7 @@ const PROJECTS = [
         "url": "projects/Culm Sconce 3.jpg"
       }
     ],
-    "text": "Culm Sconce\nAsh, PLA, fiberglass, resin, lamp parts\n11 x 4 x 64 inches\n2026\n",
+    "text": "Culm Sconce\nAsh, PLA, fiberglass, resin, lamp parts\n11 x 4 x 64 inches\n2026\nINQUIRE",
     "exhibition": false
   },
   {
@@ -321,7 +321,7 @@ const PROJECTS = [
         "url": "projects/Leaky Bladder 3.jpg"
       }
     ],
-    "text": "Leaky Bladder\nFiberglass, resin, aluminum, cherry\n12 x 15 x 10 inches\n2024",
+    "text": "Leaky Bladder\nFiberglass, resin, aluminum, cherry\n12 x 15 x 10 inches\n2024\nINQUIRE",
     "exhibition": false
   },
   {
@@ -401,7 +401,7 @@ const PROJECTS = [
         "url": "projects/Mudlark 10.jpg"
       }
     ],
-    "text": "Mudlark\nUV-printed aluminum, PLA, acrylic, lamp parts\n21 x 10 x 59 inches\n2023",
+    "text": "Mudlark\nUV-printed aluminum, PLA, acrylic, lamp parts\n21 x 10 x 59 inches\n2023\nINQUIRE",
     "exhibition": false
   },
   {
@@ -497,7 +497,7 @@ const PROJECTS = [
         "url": "projects/Servant of Ash 2.jpg"
       }
     ],
-    "text": "Malformed Servant of Ash\nBlown glass\n8 x 8 x 4 inches\n2022",
+    "text": "Malformed Servant of Ash\nBlown glass\n8 x 8 x 4 inches\n2022\nINQUIRE",
     "exhibition": false
   },
   {
@@ -537,7 +537,7 @@ const PROJECTS = [
         "url": "projects/Sluggard Waker 8.jpg"
       }
     ],
-    "text": "Sluggard Waker\nUV-printed aluminum, PLA, acrylic, lamp parts\n23 x 10 x 58 inches\n2023",
+    "text": "Sluggard Waker\nUV-printed aluminum, PLA, acrylic, lamp parts\n23 x 10 x 58 inches\n2023\nINQUIRE",
     "exhibition": false
   },
   {
@@ -585,7 +585,7 @@ const PROJECTS = [
         "url": "projects/Trojan 5.jpg"
       }
     ],
-    "text": "Trojan\nPLA, plaster, latex, resin, aluminum, fiberglass\n40 x 28 x 43 inches\n2025",
+    "text": "Trojan\nPLA, plaster, latex, resin, aluminum, fiberglass\n40 x 28 x 43 inches\n2025\nINQUIRE",
     "exhibition": false
   },
   {

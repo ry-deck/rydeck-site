@@ -182,25 +182,40 @@ function linkify(text) {
 }
 
 function formatProjectText(text) {
-  const lines = text.split("\n");
+  let lines = text.split("\n");
 
-  // Format first line
-  if (lines.length > 0) {
-    lines[0] = `<span class="project-title">${lines[0]}</span>`;
-  }
+  const hasInquire = lines.some(
+    line => line.trim().toUpperCase() === "INQUIRE"
+  );
 
-  let formatted = lines.join("\n");
+  lines = lines.filter(
+    line => line.trim().toUpperCase() !== "INQUIRE"
+  );
 
-  // **text** becomes bold
-  formatted = formatted.replace(
+  const title = lines.shift() || "";
+
+  let body = lines.join("\n");
+
+  body = body.replace(
     /\*\*(.*?)\*\*/g,
     "<strong>$1</strong>"
   );
 
-  // Convert URLs and email addresses into links
-  formatted = linkify(formatted);
+  body = linkify(body);
 
-  return formatted;
+  let heading = `<span class="project-title">${title}</span>`;
+
+  if (hasInquire) {
+    const subject = encodeURIComponent(`Inquiry about ${title}`);
+
+    heading =
+      `<span class="project-heading">` +
+        `<span class="project-title">${title}</span>` +
+        `<a class="inquire-link" href="mailto:ryan@rydeck.com?subject=${subject}">Inquire</a>` +
+      `</span>`;
+  }
+
+  return heading + "\n" + body;
 }
 
 function formatBioText(text) {
