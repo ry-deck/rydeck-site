@@ -93,6 +93,34 @@ const PROJECTS = [
     "exhibition": false
   },
   {
+    "name": "Brain Dead",
+    "image": "projects/Brain Dead 0.jpg",
+    "images": [
+      {
+        "type": "image",
+        "url": "projects/Brain Dead 1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Brain Dead 2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Brain Dead 3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Brain Dead 4.jpg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/EyuJHQWXzlg"
+      }
+    ],
+    "text": "Brain Dead x adidas \"Mechanics of Swing\" Promotional Renderings and Animation\n2024\n\nCharacter Animation and Music by Nate Die",
+    "exhibition": false
+  },
+  {
     "name": "Bricks and Bones with a Fairy on Top",
     "image": "projects/Bricks and Bones with a Fairy on Top 0.jpg",
     "images": [
@@ -191,6 +219,10 @@ const PROJECTS = [
       {
         "type": "image",
         "url": "projects/EX_Escalator 7.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/EX_Escalator 8.jpg"
       }
     ],
     "text": "Escalator to the Overlook\nSolo show at Blade Study Gallery\nApril 18th — May 26th, 2024\nhttps://www.bladestudy.net/exhibitions/escalator-to-the-overlook",
@@ -223,6 +255,14 @@ const PROJECTS = [
       {
         "type": "image",
         "url": "projects/EX_Feudal Relief 6.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/EX_Feudal Relief 7.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/EX_Feudal Relief 8.jpg"
       },
       {
         "type": "youtube",
@@ -402,6 +442,70 @@ const PROJECTS = [
       }
     ],
     "text": "Mudlark\nUV-printed aluminum, PLA, acrylic, lamp parts\n21 x 10 x 59 inches\n2023\nINQUIRE",
+    "exhibition": false
+  },
+  {
+    "name": "Nimbus",
+    "image": "projects/Nimbus 1.jpg",
+    "images": [
+      {
+        "type": "image",
+        "url": "projects/Nimbus 1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Nimbus 2.jpg"
+      }
+    ],
+    "text": "Nimbus\nFiberglass, Flocking\n2018",
+    "exhibition": false
+  },
+  {
+    "name": "Plasma",
+    "image": "projects/Plasma 0.jpg",
+    "images": [
+      {
+        "type": "image",
+        "url": "projects/Plasma 1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Plasma 2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Plasma 3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Plasma 4.jpg"
+      }
+    ],
+    "text": "A Deep Penetrating Dive Into the Plasma Pool\nSilicone, Stainless Steel, Mirror\n2019",
+    "exhibition": false
+  },
+  {
+    "name": "Poster",
+    "image": "projects/Poster 0.jpg",
+    "images": [
+      {
+        "type": "image",
+        "url": "projects/Poster 1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Poster 2.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Poster 3.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Poster 4.jpg"
+      }
+    ],
+    "text": "Various Rendered Images\n2020 - 2025",
     "exhibition": false
   },
   {
