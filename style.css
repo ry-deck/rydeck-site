@@ -40,29 +40,24 @@ button { font: inherit; }
 .logo-button {
   position: absolute;
   z-index: 1000;
-  top: var(--logo-offset);
+  top: 20px;
   left: 50%;
+
   width: var(--logo-width);
+  aspect-ratio: 3 / 1;
+
   padding: 0;
   border: 0;
-  background: transparent;
+
+  background-image: url("assets/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+
   cursor: pointer;
+
   transform: translateX(-50%);
-  
-}
-
-.logo-button:focus,
-.logo-button:focus-visible,
-.logo-button:active {
-  outline: none;
-  border: none;
-  box-shadow: none;
-}
-
-.logo-button img {
-  display: block;
-  width: 100%;
-  height: auto;
 }
 
 #project-field {
@@ -335,4 +330,12 @@ button { font: inherit; }
 .bio-text {
   max-width: 100%;
 }
+}
+
+.logo-button {
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.logo-button:hover {
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.9));
 }
