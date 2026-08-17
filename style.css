@@ -153,13 +153,6 @@ button { font: inherit; }
   font-weight: 500;
 }
 
-.project-heading {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-}
-
 .inquire-link {
   margin-left: auto;
   color: inherit;

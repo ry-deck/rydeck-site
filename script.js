@@ -207,38 +207,46 @@ function linkify(text) {
 function formatProjectText(text) {
   let lines = text.split("\n");
 
+  // Check for INQUIRE marker
   const hasInquire = lines.some(
     line => line.trim().toUpperCase() === "INQUIRE"
   );
 
+  // Remove INQUIRE from displayed text
   lines = lines.filter(
     line => line.trim().toUpperCase() !== "INQUIRE"
   );
 
+  // First line is the project title
   const title = lines.shift() || "";
 
+  // Format the rest of the text
   let body = lines.join("\n");
 
+  // **text** becomes bold
   body = body.replace(
     /\*\*(.*?)\*\*/g,
     "<strong>$1</strong>"
   );
 
+  // Convert URLs and emails
   body = linkify(body);
 
-  let heading = `<span class="project-title">${title}</span>`;
+  // Build the title
+  const heading = `<span class="project-title">${title}</span>`;
+
+  // Add Inquire after everything else
+  let inquire = "";
 
   if (hasInquire) {
     const subject = encodeURIComponent(`Inquiry about ${title}`);
 
-    heading =
-      `<span class="project-heading">` +
-        `<span class="project-title">${title}</span>` +
-        `<a class="inquire-link" href="mailto:ryan@rydeck.com?subject=${subject}">Inquire</a>` +
-      `</span>`;
+    inquire =
+      `\n<a class="inquire-link" ` +
+      `href="mailto:ryan@rydeck.com?subject=${subject}">Inquire</a>`;
   }
 
-  return heading + "\n" + body;
+  return heading + "\n" + body + inquire;
 }
 
 function formatBioText(text) {
