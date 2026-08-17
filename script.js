@@ -250,14 +250,28 @@ function formatProjectText(text) {
 }
 
 function formatBioText(text) {
+  const availableMarker = "___AVAILABLE_LINK___";
+
+  // Temporarily replace AVAILABLE
+  text = text.replace(
+    /^AVAILABLE$/gm,
+    availableMarker
+  );
+
   // **text** becomes bold
   text = text.replace(
     /\*\*(.*?)\*\*/g,
     "<strong>$1</strong>"
   );
 
-  // Make URLs and email addresses clickable
+  // Process normal URLs and emails
   text = linkify(text);
+
+  // Insert available link AFTER linkify
+  text = text.replace(
+    availableMarker,
+    '<a href="/?available">Available works</a>'
+  );
 
   return text;
 }
@@ -527,6 +541,14 @@ function openProjectFromURL() {
   );
 
   openGallery(project, imageIndex, false);
+}
+
+const availableBackLink = document.getElementById("available-back-link");
+
+const params = new URLSearchParams(window.location.search);
+
+if (params.has("available")) {
+  availableBackLink.style.display = "block";
 }
 
 createProjects();
