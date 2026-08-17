@@ -45,7 +45,7 @@ const PROJECTS = [
         "url": "projects/Back Of Beyond 5.jpg"
       }
     ],
-    "text": "Back of Beyond\nEpoxy Clay, Cherry, Fiberglass, Stainless Steel\n70 x 38 x 31 inches\n2024\n",
+    "text": "Back of Beyond\nEpoxy Clay, Cherry, Fiberglass, Stainless Steel\n70 x 38 x 31 inches\n2024\nINQUIRE",
     "exhibition": false
   },
   {
@@ -137,7 +137,7 @@ const PROJECTS = [
         "url": "projects/Bricks and Bones with a Fairy on Top 3.jpg"
       }
     ],
-    "text": "Bricks and Bones with a Fairy on Top\nCarved basswood, acrylic, white bronze\n54 x 27 x 18 inches\n2022\n",
+    "text": "Bricks and Bones with a Fairy on Top\nCarved basswood, acrylic, white bronze\n54 x 27 x 18 inches\n2022\nINQUIRE",
     "exhibition": false
   },
   {
@@ -701,7 +701,7 @@ const PROJECTS = [
         "url": "projects/Vase With Visor 1.jpg"
       }
     ],
-    "text": "Vase with Visor\nFiberglass, resin, copper\n12 x 5 x 8 inches\n2023",
+    "text": "Vase with Visor\nFiberglass, resin, copper\n12 x 5 x 8 inches\n2023\nINQUIRE",
     "exhibition": false
   }
 ];

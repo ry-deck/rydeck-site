@@ -42,9 +42,20 @@ function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
+function projectIsAvailable(project) {
+  return /\bINQUIRE\b/i.test(project.text || "");
+}
+
 function createProjects() {
   projectField.innerHTML = "";
-  const projects = shuffle(PROJECTS);
+  const params = new URLSearchParams(window.location.search);
+const availableOnly = params.has("available");
+
+const sourceProjects = availableOnly
+  ? PROJECTS.filter(projectIsAvailable)
+  : PROJECTS;
+
+const projects = shuffle(sourceProjects);
 
   projects.forEach((project, index) => {
     const element = document.createElement("div");
@@ -165,6 +176,18 @@ function enableDragging(element, project) {
   });
 }
 
+function projectSlug(name) {
+  return name
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function galleryURL(project, imageIndex) {
+  return `#${projectSlug(project.name)}/${imageIndex + 1}`;
+}
+
 function linkify(text) {
   // Web links
   text = text.replace(
@@ -231,16 +254,29 @@ function formatBioText(text) {
   return text;
 }
 
-function openGallery(project) {
+function openGallery(project, imageIndex = 0, updateHistory = true) {
   currentProject = project;
-  currentImage = 0;
-  trackEvent("project_open", {
-  project_name: project.name
-});
+  currentImage = imageIndex;
+
   gallery.classList.add("open");
   gallery.setAttribute("aria-hidden", "false");
-  showGalleryImage();
 
+  if (updateHistory) {
+    history.pushState(
+      {
+        project: projectSlug(project.name),
+        image: imageIndex
+      },
+      "",
+      galleryURL(project, imageIndex)
+    );
+  }
+
+  trackEvent("project_open", {
+    project_name: project.name
+  });
+
+  showGalleryImage();
 }
 
 function showGalleryImage() {
@@ -281,28 +317,58 @@ trackEvent("gallery_slide", {
 
 function nextImage() {
   if (!currentProject) return;
-  currentImage = (currentImage + 1) % currentProject.images.length;
+
+  currentImage =
+    (currentImage + 1) % currentProject.images.length;
+
+  history.pushState(
+    {
+      project: projectSlug(currentProject.name),
+      image: currentImage
+    },
+    "",
+    galleryURL(currentProject, currentImage)
+  );
+
   showGalleryImage();
 }
 
 function previousImage() {
   if (!currentProject) return;
+
   currentImage =
     (currentImage - 1 + currentProject.images.length) %
     currentProject.images.length;
+
+  history.pushState(
+    {
+      project: projectSlug(currentProject.name),
+      image: currentImage
+    },
+    "",
+    galleryURL(currentProject, currentImage)
+  );
+
   showGalleryImage();
 }
 
-function closeGallery() {
+function closeGallery(updateHistory = true) {
   gallery.classList.remove("open");
   gallery.setAttribute("aria-hidden", "true");
 
-  // Remove the current image/video.
-  // This stops YouTube playback immediately.
   galleryMedia.innerHTML = "";
 
   currentProject = null;
+
+  if (updateHistory) {
+    history.pushState(
+      {},
+      "",
+      window.location.pathname + window.location.search
+    );
+  }
 }
+
 document.querySelector(".gallery-next").addEventListener("click", (e) => {
   e.stopPropagation();
   nextImage();
@@ -419,7 +485,44 @@ document.addEventListener("click", (event) => {
   });
 });
 
+function openProjectFromURL() {
+  const hash = window.location.hash.substring(1);
+
+  if (!hash) {
+    closeGallery(false);
+    return;
+  }
+
+  const parts = hash.split("/");
+
+  const slug = parts[0];
+
+  let imageNumber = parseInt(parts[1], 10);
+
+  if (isNaN(imageNumber)) {
+    imageNumber = 1;
+  }
+
+  const project = PROJECTS.find(
+    project => projectSlug(project.name) === slug
+  );
+
+  if (!project) return;
+
+  // URLs are 1-based, JavaScript arrays are 0-based.
+  let imageIndex = imageNumber - 1;
+
+  // Keep bad URLs from breaking the gallery.
+  imageIndex = Math.max(
+    0,
+    Math.min(imageIndex, project.images.length - 1)
+  );
+
+  openGallery(project, imageIndex, false);
+}
+
 createProjects();
+openProjectFromURL();
 
 let resizeTimer;
 
@@ -431,3 +534,6 @@ window.addEventListener("resize", () => {
   }, 150);
 });
 
+window.addEventListener("popstate", () => {
+  openProjectFromURL();
+});
