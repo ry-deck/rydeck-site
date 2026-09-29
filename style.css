@@ -118,6 +118,18 @@ button { font: inherit; }
 
 .overlay.open { display: flex; }
 
+.new-badge {
+  position: absolute;
+  width: 35%;
+  height: auto;
+
+  top: 8%;
+  right: 6%;
+
+  z-index: 10;
+  pointer-events: none;
+}
+
 .gallery-content {
   position: relative;
   width: min(80vw, 1200px);

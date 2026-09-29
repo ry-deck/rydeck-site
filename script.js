@@ -15,6 +15,7 @@ let currentImage = 0;
 let highestZ = 1;
 let touchStartX = 0;
 let touchEndX = 0;
+let isPinching = false;
 
 function trackEvent(name, params = {}) {
   if (typeof gtag === "function") {
@@ -44,6 +45,10 @@ function shuffle(array) {
 
 function projectIsAvailable(project) {
   return /\bINQUIRE\b/i.test(project.text || "");
+}
+
+function projectIsNew(project) {
+  return /^NEW$/im.test(project.text || "");
 }
 
 function createProjects() {
@@ -84,12 +89,22 @@ const projects = shuffle(sourceProjects);
   : frameFiles[index % frameFiles.length];
 	const frameRotation = [0, 90, 270][Math.floor(Math.random() * 4)];
 
-    element.innerHTML = `
-      <div class="project-frame">
-        <img class="project-image" src="${project.image}" alt="${project.name}">
-        <img class="frame-image" src="frames/${frame}" alt="" style="transform: rotate(${frameRotation}deg);">
-      </div>
-    `;
+	const newBadge = projectIsNew(project)
+	  ? `<img class="new-badge" src="assets/new.png" alt="New">`
+	  : "";
+
+	element.innerHTML = `
+	  <div class="project-frame">
+		<img class="project-image" src="${project.image}" alt="${project.name}">
+		<img
+		  class="frame-image"
+		  src="frames/${frame}"
+		  alt=""
+		  style="transform: rotate(${frameRotation}deg);"
+		>
+		${newBadge}
+	  </div>
+`;
 
     projectField.appendChild(element);
     enableDragging(element, project);
@@ -207,35 +222,38 @@ function linkify(text) {
 function formatProjectText(text) {
   let lines = text.split("\n");
 
-  // Check for INQUIRE marker
+  // Check for special markers
   const hasInquire = lines.some(
     line => line.trim().toUpperCase() === "INQUIRE"
   );
 
-  // Remove INQUIRE from displayed text
+  // Remove special markers from visible project text
   lines = lines.filter(
-    line => line.trim().toUpperCase() !== "INQUIRE"
+    line => {
+      const marker = line.trim().toUpperCase();
+
+      return marker !== "INQUIRE" && marker !== "NEW";
+    }
   );
 
-  // First line is the project title
+  // First line becomes the project title
   const title = lines.shift() || "";
 
-  // Format the rest of the text
   let body = lines.join("\n");
 
-  // **text** becomes bold
+  // Convert **text** to bold
   body = body.replace(
     /\*\*(.*?)\*\*/g,
     "<strong>$1</strong>"
   );
 
-  // Convert URLs and emails
+  // Convert URLs and email addresses to links
   body = linkify(body);
 
-  // Build the title
+  // Format title
   const heading = `<span class="project-title">${title}</span>`;
 
-  // Add Inquire after everything else
+  // Add inquiry link at the end if project is marked INQUIRE
   let inquire = "";
 
   if (hasInquire) {
@@ -414,14 +432,39 @@ bio.addEventListener("click", (event) => {
 });
 
 gallery.addEventListener("touchstart", (event) => {
-  touchStartX = event.changedTouches[0].screenX;
+  // More than one finger = pinch/zoom, not a swipe
+  if (event.touches.length > 1) {
+    isPinching = true;
+    return;
+  }
+
+  isPinching = false;
+  touchStartX = event.touches[0].screenX;
+}, { passive: true });
+
+gallery.addEventListener("touchmove", (event) => {
+  // If a second finger appears at any point, cancel the swipe
+  if (event.touches.length > 1) {
+    isPinching = true;
+  }
 }, { passive: true });
 
 gallery.addEventListener("touchend", (event) => {
+  // Don't navigate if this gesture involved pinching
+  if (isPinching) {
+    // Wait until all fingers are lifted before resetting
+    if (event.touches.length === 0) {
+      isPinching = false;
+    }
+    return;
+  }
+
+  if (!event.changedTouches.length) return;
+
   touchEndX = event.changedTouches[0].screenX;
 
   const swipeDistance = touchEndX - touchStartX;
-  const swipeThreshold = 50;
+  const swipeThreshold = 70;
 
   if (Math.abs(swipeDistance) < swipeThreshold) return;
 

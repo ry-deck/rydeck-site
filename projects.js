@@ -703,5 +703,65 @@ const PROJECTS = [
     ],
     "text": "Vase with Visor\nFiberglass, resin, copper\n12 x 5 x 8 inches\n2023\nINQUIRE",
     "exhibition": false
+  },
+  {
+    "name": "Wavemaker",
+    "image": "projects/Wavemaker 0.jpg",
+    "images": [
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 1.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 2.jpg"
+      },
+      {
+        "type": "youtube",
+        "url": "https://www.youtube.com/embed/tEN0-Otyl4M"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 4.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 5.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 6.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 7.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 8.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 9.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 10.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 11.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 12.jpg"
+      },
+      {
+        "type": "image",
+        "url": "projects/Wavemaker 13.jpg"
+      }
+    ],
+    "text": "The Wavemaker Falters\nFiberglass, plywood, aluminum, dyed body filler, oak, ABS, water, glycerin, dye\n93 x 62 x 30 inches\n2026\n\nOn display at 260 Madison Ave NYC 10016, Floor 14\nUntil November 22, Fri - Sun 12-6 pm\n\nNEW\nINQUIRE\n\n",
+    "exhibition": false
   }
 ];
