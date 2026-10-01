@@ -446,7 +446,7 @@ const PROJECTS = [
   },
   {
     "name": "Nimbus",
-    "image": "projects/Nimbus 1.jpg",
+    "image": "projects/Nimbus 0.jpg",
     "images": [
       {
         "type": "image",
